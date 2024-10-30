@@ -1,12 +1,12 @@
 return {
 	{
-		"navarasu/onedark.nvim",
-		lazy = true,
+		"catppuccin/nvim",
+		name = "catppuccin",
+		lazy = false,
 		priority = 1000,
 		opts = function()
 			return {
-				style = "dark",
-				transparent = true,
+				transparent_background = true,
 			}
 		end,
 	},
