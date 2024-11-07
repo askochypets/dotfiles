@@ -56,6 +56,17 @@ return {
 						-- Launch configuration to start the npm script
 						type = "pwa-node",
 						request = "launch",
+						name = "tsx API debugger",
+						cwd = "${workspaceFolder}/api",
+						program = "src/server.ts",
+						runtimeExecutable = "tsx",
+						-- runtimeArgs = { "start", "--workspace=api" }, -- Specify your npm script here
+						console = "integratedTerminal", -- Run command in integrated terminal
+					},
+					{
+						-- Launch configuration to start the npm script
+						type = "pwa-node",
+						request = "launch",
 						name = "Start API debugger",
 						cwd = "${workspaceFolder}",
 						runtimeExecutable = "npm",
