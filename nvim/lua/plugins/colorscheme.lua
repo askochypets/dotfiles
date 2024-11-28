@@ -6,7 +6,7 @@ return {
 		priority = 1000,
 		opts = function()
 			return {
-				transparent_background = true,
+				-- transparent_background = true,
 			}
 		end,
 	},
