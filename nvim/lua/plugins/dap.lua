@@ -56,22 +56,18 @@ return {
 						-- Launch configuration to start the npm script
 						type = "pwa-node",
 						request = "launch",
-						name = "tsx API debugger",
+						name = "Run tsx debugger",
 						cwd = "${workspaceFolder}/api",
-						program = "src/server.ts",
+						program = "${workspaceFolder}/api/src/server.ts", -- Full path to server file
 						runtimeExecutable = "tsx",
-						-- runtimeArgs = { "start", "--workspace=api" }, -- Specify your npm script here
 						console = "integratedTerminal", -- Run command in integrated terminal
-					},
-					{
-						-- Launch configuration to start the npm script
-						type = "pwa-node",
-						request = "launch",
-						name = "Start API debugger",
-						cwd = "${workspaceFolder}",
-						runtimeExecutable = "npm",
-						runtimeArgs = { "start", "--workspace=api" }, -- Specify your npm script here
-						console = "integratedTerminal", -- Run command in integrated terminal
+						skipFiles = { "<node_internals>/**" }, -- Skip internal Node.js files
+						resolveSourceMapLocations = {
+							"${workspaceFolder}/api/**",
+							"!**/node_modules/**",
+						}, -- Optional: refine source map locations for clarity
+						attachSimplePort = 9229, -- Optional: force debugger to only use a specific port
+						runtimeArgs = { "--inspect" }, -- Leave runtime args empty unless absolutely needed
 					},
 					{
 						type = "pwa-node",
