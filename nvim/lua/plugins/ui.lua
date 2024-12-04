@@ -136,22 +136,21 @@ return {
 		},
 		keys = { { "<leader>z", "<cmd>ZenMode<cr>", desc = "Zen Mode" } },
 	},
-
 	{
-		"nvimdev/dashboard-nvim",
-		event = "VimEnter",
-		opts = function(_, opts)
-			local logo = [[
+		"folke/snacks.nvim",
+		opts = {
+			dashboard = {
+				preset = {
+					header = [[
   ███████╗██╗  ██╗ ██████╗  ██████╗██╗  ██╗
   ██╔════╝██║ ██╔╝██╔═══██╗██╔════╝██║  ██║
   ███████╗█████╔╝ ██║   ██║██║     ███████║
   ╚════██║██╔═██╗ ██║   ██║██║     ██╔══██║
   ███████║██║  ██╗╚██████╔╝╚██████╗██║  ██║
   ╚══════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝
-      ]]
-
-			logo = string.rep("\n", 8) .. logo .. "\n\n"
-			opts.config.header = vim.split(logo, "\n")
-		end,
+      ]],
+				},
+			},
+		},
 	},
 }
