@@ -1,5 +1,6 @@
 vim.g.mapleader = " "
 vim.g.snacks_animate = false
+vim.g.root_spec = { "cwd" }
 
 vim.opt.encoding = "utf-8"
 vim.opt.fileencoding = "utf-8"

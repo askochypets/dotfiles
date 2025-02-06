@@ -53,6 +53,17 @@ return {
 			for _, language in ipairs(js_filetypes) do
 				dap.configurations[language] = {
 					{
+						type = "pwa-node",
+						request = "launch",
+						name = "Launch NX Serve (handl)",
+						program = "${workspaceFolder}/node_modules/.bin/nx",
+						args = { "serve", "handl" }, -- Command to run `nx serve auth`
+						cwd = "${workspaceFolder}",
+						runtimeExecutable = "node",
+						console = "integratedTerminal",
+						restart = true, -- Automatically restart the debugger if the process crashes
+					},
+					{
 						-- Launch configuration to start the npm script
 						type = "pwa-node",
 						request = "launch",
