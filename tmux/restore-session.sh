@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ ! -f ~/.tmux-sessions ]]; then
+if [[ ! -f ~/dotfiles/tmux/.tmux-sessions ]]; then
   echo "No saved session found!"
   exit 1
 fi
