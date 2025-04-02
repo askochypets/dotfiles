@@ -149,7 +149,7 @@
                     "value": 1
                   }
                 ],
-                "description": "Open WezTerm",
+                "description": "Open Alacritty",
                 "from": {
                   "key_code": "k",
                   "modifiers": {
@@ -158,7 +158,7 @@
                 },
                 "to": [
                   {
-                    "shell_command": "open -a 'WezTerm.app'"
+                    "shell_command": "open -a 'Alacritty.app'"
                   }
                 ],
                 "type": "basic"
@@ -195,7 +195,7 @@
                 ],
                 "description": "Open MS Teams",
                 "from": {
-                  "key_code": "m",
+                  "key_code": "t",
                   "modifiers": {
                     "optional": ["any"]
                   }
@@ -239,7 +239,7 @@
                 ],
                 "description": "Open VS Code",
                 "from": {
-                  "key_code": "comma",
+                  "key_code": "v",
                   "modifiers": {
                     "optional": ["any"]
                   }
@@ -261,7 +261,7 @@
                 ],
                 "description": "Open DBeaver",
                 "from": {
-                  "key_code": "period",
+                  "key_code": "d",
                   "modifiers": {
                     "optional": ["any"]
                   }
@@ -269,6 +269,28 @@
                 "to": [
                   {
                     "shell_command": "open -a 'DBeaver.app'"
+                  }
+                ],
+                "type": "basic"
+              },
+              {
+                "conditions": [
+                  {
+                    "name": "hyper_sublayer_e",
+                    "type": "variable_if",
+                    "value": 1
+                  }
+                ],
+                "description": "Open Mail",
+                "from": {
+                  "key_code": "m",
+                  "modifiers": {
+                    "optional": ["any"]
+                  }
+                },
+                "to": [
+                  {
+                    "shell_command": "open -a 'Mail.app'"
                   }
                 ],
                 "type": "basic"

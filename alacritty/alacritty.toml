@@ -12,11 +12,19 @@ TERM = "xterm-256color"
 size = 12.5
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "JetBrainsMonoNL NF"
+style = "Bold"
+
+[font.offset]
+x = 0
+y = 1
 
 [selection]
 save_to_clipboard = true
 
 [window]
-startup_mode = "Fullscreen"
+padding = {x = 0, y = 0}
+startup_mode = "SimpleFullscreen"
 option_as_alt = "Both"
+decorations = "None"
+opacity = 0.9999
