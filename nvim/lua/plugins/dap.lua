@@ -3,6 +3,12 @@ return {
 		"mfussenegger/nvim-dap",
 		optional = true,
 		dependencies = {
+			"rcarriga/nvim-dap-ui",
+			-- virtual text for the debugger
+			{
+				"theHamsta/nvim-dap-virtual-text",
+				opts = {},
+			},
 			{
 				"williamboman/mason.nvim",
 				opts = function(_, opts)
@@ -11,6 +17,11 @@ return {
 				end,
 			},
 		},
+     -- stylua: ignore
+    keys = {
+      { "<leader>dO", function() require("dap").step_out() end, desc = "Step Out" },
+      { "<leader>do", function() require("dap").step_over() end, desc = "Step Over" },
+    },
 		opts = function()
 			local dap = require("dap")
 			if not dap.adapters["pwa-node"] then
@@ -57,7 +68,7 @@ return {
 						request = "launch",
 						name = "Launch NX Serve (handl)",
 						program = "${workspaceFolder}/node_modules/.bin/nx",
-						args = { "serve", "handl" }, -- Command to run `nx serve auth`
+						args = { "serve", "auth" }, -- Command to run `nx serve auth`
 						cwd = "${workspaceFolder}",
 						runtimeExecutable = "node",
 						console = "integratedTerminal",
