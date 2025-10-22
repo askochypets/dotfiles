@@ -10,7 +10,7 @@ return {
 				opts = {},
 			},
 			{
-				"williamboman/mason.nvim",
+				"mason-org/mason.nvim",
 				opts = function(_, opts)
 					opts.ensure_installed = opts.ensure_installed or {}
 					table.insert(opts.ensure_installed, "js-debug-adapter")
@@ -66,11 +66,22 @@ return {
 					{
 						type = "pwa-node",
 						request = "launch",
-						name = "Launch NX Serve (handl)",
+						name = "Launch NX Serve (Auth)",
 						program = "${workspaceFolder}/node_modules/.bin/nx",
 						args = { "serve", "auth" }, -- Command to run `nx serve auth`
 						cwd = "${workspaceFolder}",
-						runtimeExecutable = "node",
+						runtimeExecutable = "/Users/andriiskochypets/.config/nvm/versions/node/v18.20.8/bin/node",
+						console = "integratedTerminal",
+						restart = true, -- Automatically restart the debugger if the process crashes
+					},
+					{
+						type = "pwa-node",
+						request = "launch",
+						name = "Launch NX Serve --args",
+						program = "${workspaceFolder}/node_modules/.bin/nx",
+						args = { "serve", "" }, -- Command to run `nx serve auth`
+						cwd = "${workspaceFolder}",
+						runtimeExecutable = "/Users/andriiskochypets/.config/nvm/versions/node/v18.20.8/bin/node",
 						console = "integratedTerminal",
 						restart = true, -- Automatically restart the debugger if the process crashes
 					},

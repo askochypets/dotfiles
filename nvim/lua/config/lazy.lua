@@ -35,7 +35,7 @@ require("lazy").setup({
 		{ import = "lazyvim.plugins.extras.lang.tailwind" },
 		{ import = "lazyvim.plugins.extras.lang.go" },
 		{ import = "lazyvim.plugins.extras.lang.sql" },
-		-- { import = "lazyvim.plugins.extras.coding.copilot" },
+		{ import = "lazyvim.plugins.extras.ai.copilot" },
 		{ import = "lazyvim.plugins.extras.dap.core" },
 		-- { import = "lazyvim.plugins.extras.vscode" },
 		{ import = "lazyvim.plugins.extras.util.mini-hipatterns" },
