@@ -1,0 +1,311 @@
+clear
+ll
+l
+la
+ls
+cat history.txt
+clear
+l
+ls
+source env.nu
+c
+clear
+cd ~/.config
+clear
+ls -la
+cd tmux
+ls
+lllljjjjkBjkkT
+c
+clear
+ls
+cat keybinds.conf
+c
+clear
+ls
+cat tmux.conf
+c
+clear
+c
+clear
+vim
+nvim
+clear
+c
+cd dotfiles
+dotfiles
+z dotfiles
+clear
+dc ...
+cd ..
+cdlar
+clear
+cd nushell/
+v
+clear
+which brew
+cd /opt
+ls
+ls /bin
+clear
+ls /Users/andriiskochypets/.local/
+ls
+ls /Users/andriiskochypets/.local/bin
+which ruby
+clear
+cd ~/.cache/
+c
+clear
+cx
+ls
+cd starship/
+ls
+clear
+zoxide
+c
+clear
+$nu.default-config-dir
+$env.PATH
+ls /run
+clear
+which ~
+cd ~
+pwd
+which ruby
+which brew
+z
+brew
+which brew
+c
+clear
+$env.PATH
+zoxide dotfiles
+zoxide
+clear
+cd dotfiles/macos/
+clear
+cd nushell/
+source env.nu
+clear
+which ruby
+cd /usr/bin/
+ls
+ls | find rufby
+ls | find ruby
+cd /usr/local/
+ls
+cd bin
+ls
+cd /usr/bin/
+clear
+ls
+cd ..
+ls
+cd local/
+ls
+cd opt/
+ls
+ls | find ruby
+which ./ruby
+pwd
+clear
+cd dotfiles
+$Path
+$PATH
+clear
+env
+cd /Users/andriiskochypets/
+clear
+ls .config
+zoxide init nushell | save -f ~/.zoxide.nu<\n>
+clear
+zoxide init nushell
+clear
+zi
+zi a
+clear
+tmux
+clear
+ls
+clear
+exit
+claer
+clear
+c
+zsh
+clear
+$nu.config-path
+config nu 
+clear
+$nu.config-path
+~/dotfiles/macos/nushell/
+ls
+zsh
+clear
+l
+la
+$env.PATH
+clear
+cd ~/.local/bin
+zsh
+$env.path add ($env.CARGO_HOME | path join "bin")<\n>
+CARGO_HOME<\n>
+$env.CARGO_HOME
+nu
+clear
+exit
+source $nu.config-path
+c
+source $nu.config-path
+$env.PATH
+c
+source $nu.config-path
+$env.PATH
+source $nu.config-path
+c
+source $nu.config-path
+zsh
+eval "$(atuin init <shell>)"
+exit
+eval "$(atuin init <shell>)"
+zsh
+mkdir ~/.local/share/atuin/<\n>atuin init nu | save ~/.local/share/atuin/init.nu
+atuin
+source $nu.config-path
+clear
+source $nu.config-path
+atuin
+clear
+mkdir ~/.local/share/atuin/<\n>atuin init nu | save ~/.local/share/atuin/init.nu
+source $nu.config-path
+carapace
+source $nu.config-path
+c
+source $nu.config-path
+ls /usr/share
+clear
+c
+cd .
+cd ~
+clear
+$env.$XDG_CONFIG_HOME
+$env.XDG_CONFIG_HOME
+$env.UserConfigDir
+$UserConfigDir
+clear
+${UserConfigDir}.
+${UserConfigDir}
+carapace --help
+clear
+brew
+brew insatll carapace
+brew
+brew install carapace
+clear
+$nu.env-path
+clear
+source $nu.config-path
+source $nu.env-path
+source $nu.config-path
+clear
+tmux
+c
+exit
+exit
+c
+source $nu.env-path
+clear
+source $nu.env-path
+source config.nu
+source $nu.config-path
+claer
+clear
+tmux
+ear
+c
+tmux attach
+clear
+nvim
+v
+z tmux
+zi tmux
+z
+clear
+zi
+zoxide
+ckear
+clear
+z
+zsh
+zi
+ckear
+clear
+z
+zoxide 
+clear
+zoxide init nushell
+c
+clear
+ls
+lt
+ls
+lt
+clat
+z
+zi
+clear
+zi tmux
+zi tmux
+z
+clear
+cd ..
+lt
+zi
+zi
+tmux
+celea
+rclear
+c
+tmux kill-session 
+tmux list-sessions 
+tmu
+c
+zi
+zi tmux
+pwd
+nvim tmux
+c
+cd ..
+ls 
+ls | tmux
+ls | find tmux
+c
+clear
+git alias
+git acm
+cx dotfile
+clear
+c
+clear
+z dotfiles
+clear
+ls
+la
+ls
+clear
+ll
+c
+l
+zi dotfiles
+clear
+l
+la
+clear
+ll
+lt
+clear
+lt
+rm -rf iterm2/
+clear
+lt
+c
