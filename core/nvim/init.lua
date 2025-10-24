@@ -1,5 +1,5 @@
-require 'core.options'  -- Load general options
-require 'core.keymaps'  -- Load general keymaps
+require 'core.options' -- Load general options
+require 'core.keymaps' -- Load general keymaps
 require 'core.snippets' -- Custom code snippets
 
 -- Install package manager
@@ -37,6 +37,7 @@ require('lazy').setup({
   require 'plugins.lualine',
   require 'plugins.bufferline',
   require 'plugins.neo-tree',
+  require 'plugins.oil',
   require 'plugins.alpha',
   require 'plugins.indent-blankline',
   require 'plugins.lazygit',
@@ -45,9 +46,7 @@ require('lazy').setup({
   require 'plugins.gitsigns',
   require 'plugins.database',
   require 'plugins.misc',
-  require 'plugins.harpoon',
-  -- require 'plugins.avante',
-  -- require 'plugins.chatgpt',
+  require 'plugins.avante',
   require 'plugins.aerial',
   require 'plugins.vim-tmux-navigator',
 }, {
@@ -71,26 +70,6 @@ require('lazy').setup({
     },
   },
 })
-
--- Function to check if a file exists
-local function file_exists(file)
-  local f = io.open(file, 'r')
-  if f then
-    f:close()
-    return true
-  else
-    return false
-  end
-end
-
--- Path to the session file
-local session_file = '.session.vim'
-
--- Check if the session file exists in the current directory
-if file_exists(session_file) then
-  -- Source the session file
-  vim.cmd('source ' .. session_file)
-end
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
