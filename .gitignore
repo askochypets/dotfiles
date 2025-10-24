@@ -1,1 +1,4 @@
 tmux/.tmux-sessions
+.DS_Store
+history.txt
+plugins
