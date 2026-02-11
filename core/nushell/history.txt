@@ -1,311 +1,3049 @@
-clear
-ll
-l
-la
-ls
-cat history.txt
-clear
-l
-ls
-source env.nu
-c
-clear
-cd ~/.config
-clear
-ls -la
-cd tmux
-ls
-lllljjjjkBjkkT
-c
-clear
-ls
-cat keybinds.conf
-c
-clear
-ls
-cat tmux.conf
-c
-clear
-c
-clear
-vim
-nvim
-clear
-c
-cd dotfiles
-dotfiles
-z dotfiles
-clear
-dc ...
-cd ..
-cdlar
-clear
-cd nushell/
-v
-clear
-which brew
-cd /opt
-ls
-ls /bin
-clear
-ls /Users/andriiskochypets/.local/
-ls
-ls /Users/andriiskochypets/.local/bin
-which ruby
-clear
-cd ~/.cache/
-c
-clear
-cx
-ls
-cd starship/
-ls
-clear
-zoxide
-c
-clear
-$nu.default-config-dir
+exit
+$nu.config-path
 $env.PATH
-ls /run
 clear
-which ~
-cd ~
-pwd
-which ruby
-which brew
+clera
+c
+exit
+$env:APPDATA\Nushell
+$env:APPDATA\Nushellext
+exit
+clear
+exit
+$env.nu
+$nu.config-path
+exit
+$nu.config-path
+exit
+q
+exit
+q
+exit
+q
+exit
+echo $nu.default-config-dir<\n>
+exit
+clear
 z
-brew
-which brew
-c
-clear
-$env.PATH
-zoxide dotfiles
-zoxide
-clear
-cd dotfiles/macos/
-clear
-cd nushell/
-source env.nu
-clear
-which ruby
-cd /usr/bin/
-ls
-ls | find rufby
-ls | find ruby
-cd /usr/local/
-ls
-cd bin
-ls
-cd /usr/bin/
-clear
-ls
-cd ..
-ls
-cd local/
-ls
-cd opt/
-ls
-ls | find ruby
-which ./ruby
-pwd
-clear
-cd dotfiles
-$Path
-$PATH
-clear
-env
-cd /Users/andriiskochypets/
-clear
-ls .config
-zoxide init nushell | save -f ~/.zoxide.nu<\n>
-clear
-zoxide init nushell
-clear
-zi
-zi a
-clear
-tmux
-clear
-ls
 clear
 exit
-claer
 clear
-c
-zsh
-clear
-$nu.config-path
-config nu 
-clear
-$nu.config-path
-~/dotfiles/macos/nushell/
-ls
-zsh
-clear
-l
-la
-$env.PATH
-clear
-cd ~/.local/bin
-zsh
-$env.path add ($env.CARGO_HOME | path join "bin")<\n>
-CARGO_HOME<\n>
-$env.CARGO_HOME
-nu
-clear
-exit
-source $nu.config-path
-c
-source $nu.config-path
-$env.PATH
-c
-source $nu.config-path
-$env.PATH
-source $nu.config-path
-c
-source $nu.config-path
-zsh
-eval "$(atuin init <shell>)"
-exit
-eval "$(atuin init <shell>)"
-zsh
-mkdir ~/.local/share/atuin/<\n>atuin init nu | save ~/.local/share/atuin/init.nu
-atuin
-source $nu.config-path
-clear
-source $nu.config-path
-atuin
-clear
-mkdir ~/.local/share/atuin/<\n>atuin init nu | save ~/.local/share/atuin/init.nu
-source $nu.config-path
-carapace
-source $nu.config-path
-c
-source $nu.config-path
-ls /usr/share
-clear
-c
-cd .
-cd ~
-clear
-$env.$XDG_CONFIG_HOME
-$env.XDG_CONFIG_HOME
-$env.UserConfigDir
-$UserConfigDir
-clear
-${UserConfigDir}.
-${UserConfigDir}
-carapace --help
-clear
-brew
-brew insatll carapace
-brew
-brew install carapace
-clear
-$nu.env-path
-clear
-source $nu.config-path
-source $nu.env-path
-source $nu.config-path
-clear
-tmux
-c
-exit
-exit
-c
-source $nu.env-path
-clear
-source $nu.env-path
-source config.nu
-source $nu.config-path
-claer
-clear
-tmux
-ear
+clera
 c
 tmux attach
+exit
+tmux
 clear
+zi conf
+la
+l
+ls
+clear
+l
+clear
+exit
+tmux
+clera
+ls
+cd tmux
+ls
+clear
+cat keybinds.conf 
+cd ..
+ls
+cd tmux
+ls
+cat tmux.conf 
+/install
+c
+zi mac
+cd ..
+cd core/tmux/
+git clone https://github.com/tmux-plugins/tpm plugins/tpm
+exit
+tmux attach
+zi do
 nvim
 v
-z tmux
-zi tmux
-z
 clear
-zi
-zoxide
-ckear
-clear
-z
-zsh
-zi
-ckear
-clear
-z
-zoxide 
-clear
-zoxide init nushell
-c
-clear
-ls
-lt
-ls
-lt
-clat
-z
-zi
-clear
-zi tmux
-zi tmux
-z
-clear
-cd ..
-lt
-zi
-zi
+clera
 tmux
-celea
-rclear
+tmux attach
 c
-tmux kill-session 
-tmux list-sessions 
-tmu
+clear
+clear
+zi Proj
+zi
+clear
+cd planstin-portal/
+clera
+zi 
+c
+c
+sdf
+clear
 c
 zi
-zi tmux
+clear
+exit
+clear
+clear
+nx g lib
+nx
+nvm
+zsh
+pnpm
+which pnpm
+npm
+clear
+which npm
+which nx
+which yarn
+nx
+nx 
+npx nx
+clear
+npx --version
+clear
+nx
+$nu.PATH
+$env.PATH
+zi andrii
+z andriiskochypets
+cd ~
 pwd
-nvim tmux
+$env.HOME
+node
 c
+^nvm
+nvm
+clear
+nvm
+which ^nvm
+clear
+source $nu.env-path
+nvm
+nx
+nvim
+clear
+clear
+tsx
+npm i -g tsx
+chmod 777 /usr/local/lib
+tsx
+npm i -g tsx
+clear
+source $nu.env-path
+$env.PA
+$env.PATH
+tsx
+which tsx
+npm i -g tsx
+npm config get prefix
+tsx
+clear
+npm i -g tsx
+npm get prefix -g
+$env.PATH
+npm i -g tsx
+chmod 777 -R /usr/local/lib
+chmod -R 777 /usr/local/lib
+sudo chmod -R 777 /usr/local/lib
+sudo chmod -R 777 /usr/local
+c
+npm i -g tsx
+nvm
+which tsx
+nx
+npm i -g nx
+nx --version
+clear
+nx
+c
+zsh
+clear
+nx 
+clear
+zi portal
+clear
+nx g lib
+c
+clear
+d
+c
+m
+nvim
+clera
+nvim
+clear
+nx g lib --importPath @planstin-portal/shared
+clear
+nx g lib
+nvim
+v
+c
+v
+nvim
+nvm
+use
+node -v
+c
+get
+clear
+http post 
+http post http://localhost:3001/local/auth/login
+exit
+nx serve auth
+c
+clear
+nx serve ui
+c
+nx build ui
+nx preview ui
+c
+clear
+nx lint shared
+nx lint tools
+nx lint
+nx --target lint
+nx-many --target=lint
+clear
+nx-many --target="lint"
+clear
+nx run-many --target=lint
+nx lint ui
+nx lint db
+clear
+nx lint db
+clear
+nx lint api
+nx lint electronic-agreements
+clear
+nx lint api
+clear
+nx lint api
+c
+nx lint api
+nx lint managers
+tmux attach
+z Projects/
+clear
+cd Enrollment-Manager-API/
+clear
+nx lint api
+clear
+nx lint api
+c
+nx lint api
+which node
+zsh
+curl -fsSL https://fnm.vercel.app/install | bash
+fnm ls
+fnm use 
+fnm list 
+fnm use 22
+fnm install 22
+fnm install latest
+fnm install 22
+clear
+fnm use 22
+brew uninstall fnm
+brew install fnm
+clear
+fnm use 22
+$ node --version<\n>v14.18.3<\n>$ node --version > .node-version
+source ~/.zshrc
+zsh
+clear
+zsh
+which fnm
+fnm use 22
+tmux attach
+fnm use 22
+clear
+Invoke-Item $profile
+config nu
+source $nu.config-path
+$env.PATH
+clear
+ls /home/
+which fnm
+fnm env
+fnm env --shell bash
+load-env (fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH" && name != "PATH" | reduce -f {} {|it, acc| $acc | upsert $it.name $it.value })
+load-env
+zsh
+fnm use 22
+load-env (fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH" && name != "PATH" | reduce -f {} {|it, acc| $acc | upsert $it.name $it.value })
+fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH" && name != "PATH" | reduce -f {} {|it, acc| $acc | upsert $it.name $it.value }
+clear
+fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH" && name != "PATH" | reduce -f {} {|it, acc| $acc | upsert $it.name $it.value }
+(fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH" && name != "PATH" | reduce -f {} {|it, acc| $acc | upsert $it.name $it.value })
+ls /home/
+zsh
+fnm env --shell power-shell | fnm-nushell | from json | load-env
+fnm env
+(fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH" && name != "PATH" | reduce -f {} {|it, acc| $acc | upsert $it.name $it.value })
+fnm env --shell bash | fnm-nushell | from json | load-env
+fnm env --shell bash | from json | load-env
+fnm env --shell bash | from json
+fnm env --shell bash
+c
+fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH"
+fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split | column = | rename name value | where name != "FNM_ARCH"
+fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH"
+fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' 
+fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column 
+fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH"
+fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = 
+fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH"
+fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' ''
+source $nu.config-path
+source $nu.env-path
+c
+source $nu.env-path
+fnm env --shell bash | from json
+fnm
+fnm env --shell bash
+clear
+fnm env --shell bash | to json
+fnm env --shell bash | to json | from json
+fnm env --shell bash | to json | to text
+clear
+fnm env --shell bash 
+source $nu.env-path
+clear
+fnm use 22
+clear
+which load-env
+clear
+which let-env
+$env
+$env | find mu
+$env
+source $nu.env-path
+clear
+fnm env --json
+fnm env --json | from json | load-env
+$env.FNM_MULTISHELL_PATH
+fnm use 22
+clear
+node --version
+fnm use 22
+node --version
+node -v
+nvim
+clear
+clear
+path add ($env.PATH | path join "/usr/local/lib")<\n>
+clear
+source 
+source $nu.env-path
+([([$env.FNM_MULTISHELL_PATH "bin"] | path join) $env.PATH] | str join (char esep))
+clear
+([([$env.FNM_MULTISHELL_PATH "bin"] | path join) $env.PATH] | str join (char esep))
+$env.PATH
+$env.FNM_MULTISHELL_PATH | path join 'bin'
+($env.PATH | path join $env.FNM_MULTISHELL_PATH | path join 'bin')
+($env.PATH | path join ($env.FNM_MULTISHELL_PATH | path join 'bin'))
+($env.PATH | path join "/usr/local/bin")<\n>
+$env.PATH
+$env.PATH | path join 'a'
+$env.PATH | path join 'aia'
+source $nu.env-path
+fnm use 22
+clear
+nx
+clear
+node -v
+clear
+fnm use 22
+clear
+fnm use 22
+exit
+clear
+fnm default 22
+clear
+nvim
+c
+fnm use 22
+exit
+c
+node -v
+nvim
+node -v
+clear
+k
+t
+exit
+tmux attach
+nvim
+clear
+nx lint api
+cleear
+c
+nx lint api
+nx lint keycloak
+c
+nx lint keycloak
+nx lint users
+clear
+nx lint users
+v
+c
+clear
+ls
+ps 
+ps | cpu > 5
+ps | where cpu > 5
+clear
+ps | where cpu > 5
+ps
+ps | order by cpu desc
+ps | sort cpu
+ps | sort 
+ps | cpu sort asc
+ps | sort asc
+ps | sort
+ps | where cpu > 5
+ps | where mem > 200
+clear
+c
+cd core/nvim/
+ls
+v
+java -v
+java --versoin
+java --version
+java -version
+clera
+cd Projects/
+git clone https://github.com/chintanbuch/keycloak-client-webhook.git
+clear
+ls
+cd keycloak-client-webhook/
+clear
+v
+make build
+java -version
+nx serve webservices
+clear
+nx serve webserviece
+nx serve webservvice
+nx serve webservices
+nx serve webservice
+clear
+nx serve webservices
+nv
+nvm
+fcb
+alias
+clear
+fnm use 20
+clear
+nx serve webservices
+git r dev
+c
+nx serve webservices
+c
+nx serve webservices
+c
+v
+fnm use 20
+v
+fnm use 22
+clear
+which fnm
+la /usr/local/vin/fnm
+zi
+z fnm
+cd /usr/local/bin/fnm
+cd /user
+cd /usr
+cd local
+cd bin
+cd fnm
+clear
+cd fnm
+zi
+clear
+c
+which node
+v
+c
+cd /Users/andriiskochypets/.local/
+ls
+cd share/
+ls
+cd fnm
+ls
+cd node-versions/
+ls
+cd v20.19.5/
+ls
+cd installation/
+ls
+cd bin
+clear
+ls
+pwd
+v
+clear
+zi Proj
+cd `MySQL settings/`
+clear
+ls
+./server.js
+node server.js
+clear
+node server.js 
+ls
+npm i
+rm -rf package-lock.json
+npm i
+clear
+node server.js 
+fnm use 20
+node server.js 
+clear
+fnm use 18
+exit
+node server.js 
+c
+clear
+which node
+c
+which node
+c
+v
+z dot
+z mysql
+c
+fnm env 
+fnm env --json
+echo 
+echo ${FNM_MULTISHELL_PATH}
+$env.PATH
+$env.PATH[1]
+clear
+$env.PATH | get 1
+$env.PATH | get 1 --version
+clear
+$env.PATH | get 1
+cd $env.PATH | get 1
+cd ($env.PATH | get 1)
+ls
+node -v
 cd ..
-ls 
-ls | tmux
-ls | find tmux
+ls
+cd ..
+ls
+clear
+$env.PATH
+fnm env --json | from json | load-env<\n>
+$env.PATH
+fnm env --json | from json
+$env.FNM_DIR
+v
+$env.FNM_DIR
+cd ($env.FNM_DIR)
+ls
+cd node-versions/
+ls
+cd v20.19.5/
+ls
+cd installation/
+cd 
+ls
+z install
+l
+clear
+la
+ls
+clear
+l
+ls
+l
+cd vin
+cd bin/
+l
+clear
+node -v
+clear
+node -v
+node -b
+./node -v
+pwd
+v
+/bin/sh
+clear
+cd api
+z api
+clear
+cd node_modules/
+cd .bin
+./nx
+pnpm i
+cd .. ..
+cd ..
+..
+clera
 c
+clear
+c
+pnpm i
+c
+which nx\
+which nx
+v
+c
+clear
+java --version
+java -version
+brew install openjdk
+java -v
+java -version
+java --v
+/usr/local/opt/openjdk/bin/java --version
+/usr/local/opt/openjdk/bin/java -version
+java -v
+java -version
+$env.PATH
+$env.JAVA_HOME
+z dotd
+z dot
+clear
+kc
+c
+/usr/local/opt
+ls
+clear
+cd openjdk
+cl
+clera
+clear
+cd ..
+ls | get open
+ls | find open
+cd openjdk@25/bin/
+ls
+clear
+z dot
+source $nu.env-path
+java -version
+c
+java
+clear
+java -version 
+source $nu.env-path
+clear
+z kcw
+zi
+clear
+maven --version
+maven -version
+mvn
+mvn -version
+make build
+clear
+tmux
+clear
+pwd
+cd Projects/keycloak-lambda-authorizer/
+clear
+docker
+clear
+docker container ls 
+docker start 
+docker start
+clear
+docker container ls 
+docker container ls
+clear
+ps | find dock
+ps | find docker
+ps | find donc
+ps | find doc
+clear
+ls target/
+clear
+curl -v -X GET \<\n>  -H "Authorization: Bearer <access_token>" \<\n>  "http://localhost:8080/admin/realms/<realm_name>/clients?clientId=<client_id>"<\n>
+c
+v
+c
+curl -v -X GET \<\n>  -H "Authorization: Bearer <access_token>" \<\n>  "http://localhost:8080/admin/realms/<realm_name>/clients?clientId=<client_id>"
+clear
+make build
+c
+zi 
+clear
+v
+c
+make build
+c
+make build
+c
+make build
+c
+make build
+c
+make build
+docker exec
+docker exec curl
+clear
+ngrok
+ngrok http 8080
+brew install ngrok
+ngrok http 3055
+ngrok config add-authtoken 351Rs7hstQo9wkeGhDBe1SxVME6_4xwpd3EfhZnjNaSqiATT3
+v
+c
+v
+python3
+clear
+v
+cd core/nvim/
+v
+cd ..
+rm -rf keycloak-client-webhook/
+git clone https://github.com/chintanbuch/keycloak-client-webhook.git
+cd keycloak-client-webhook/
+..
+cd keycloak-client-webhook/
+c
+c
+make build
+clear
+make build
+clear
+docker run -p 127.0.0.1:8080:8080 -e KC_BOOTSTRAP_ADMIN_USERNAME=admin -e KC_BOOTSTRAP_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:26.4.2 start-dev<\n>
+curl -v -X GET \<\n>  -H "Authorization: Bearer <access_token>" \<\n>  "http://localhost:8080/admin/realms/<realm_name>/clients?clientId=<client_id>"
+c
+curl -v -X GET \<\n>  -H "Authorization: Bearer <access_token>" \<\n>  "http://localhost:8080/admin/ealms/<realm_name>/clients?clientId=<client_id>"
+c
+docker run -p 127.0.0.1:8080:8080 -e KC_BOOTSTRAP_ADMIN_USERNAME=admin -e KC_BOOTSTRAP_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:26.3.3 start-dev<\n>
+c
+ls
+clear
+ngrok http 3055
+c
+v
+c
+make build
+c
+clear
+make build
+tmux
+cd Projects/
+git clone https://github.com/p2-inc/keycloak-events.git
+cd keycloak-events/
+mvn clean install
+clear
+nx serve webservices
+c
+docker exec -it aef6eeff0df406e74db83ca711f86d55784912de8ced4d1b947263c48dab65fe /opt/jboss/keycloak/bin/jboss-cli.sh --connect \<\n>     /subsystem=logging/logger=io.phasetwo.keycloak.events:add(level=DEBUG)
+mvn clean install
+c
+mvn clean install
+v
+c
+mvn clean install
+v
+cd ..
+cd ..
+c
+rm -rf keycloak-client-webhook/
+git clone https://github.com/chintanbuch/keycloak-client-webhook.git
+cd keycloak-client-webhook/
+ls
+cd keycloak-client-webhook/
+docker run -p 127.0.0.1:8080:8080 -e KC_BOOTSTRAP_ADMIN_USERNAME=admin -e KC_BOOTSTRAP_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:26.3.3 start-dev
+c
+make build
+clear
+make build
+clear
+make build
+c
+c
+tmux attach
+cd Projects/
+cd keycloak-events/
+ls
+docker run -p 127.0.0.1:8080:8080 -e KC_BOOTSTRAP_ADMIN_USERNAME=admin -e KC_BOOTSTRAP_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:26.4.4 start-dev<\n>
+clear
+c
+nx serve webservices
+ngrok http 3055
+c
+tmux
+docker -it 
+docker ls
+docker container ls
+docker -it e27ea6ac2f90   q
+docker -it e27ea6ac2f90  
+docker attach
+docker attach e27ea6ac2f90   q
+docker attach e27ea6ac2f90  
+docker attach e27ea6ac2f90
+clera
+docker exec -it e27ea6ac2f90 sh
+docker exec -it e27ea6ac2f90 nu
+docker exec -it e27ea6ac2f90 zsh
+docker exec -it e27ea6ac2f90 sh
+USER root
+zsh
+clear
+which java
+zi
+cd ..
+ls
+cd  bin
+ls
+cd ..
+clear
+cd libexec/
+ls
+cd ..
+clear
+$env.JAVA_HOME
+zsh
+clear
+cd ..
+ls
+cd java
+ls
+cd ..
+cd openjdk@25
+lcear
+c
+ls -l `which java`
+zsh
+ls -l 'which java'
+ls -l which java
+ls -l
+clear
+ls -l `^which java`
+ls -l | which java
+which java
+which java | ls -l
+clear
+c
+which java | each {|file| ls -l $file}<\n>
+which java | each {|file| ls -l $file}
+ls -l (which java)<\n>
+path expand java
+path expand which java
+path expand which
+path hava
+which ls
+which ls java
+which ^ls
+which ^java
+which ^ls -l java
+^ls -l `which java`
+ls
+^ls 
+^ls -l
+^ls -l `which java`
+zsh
+cd libexec/
+l
+cd openjdk.jdk/
+ls
+l
+cd Contents/
+r
+ranger
+l
+cd Home/
+l
+cd lib/security/
+clear
+l
+keytool -import -noprompt -trustcacerts -alias https://pipedream.com -file "~/Downloads/pipedream.com.cer" -keystore cacerts
+ls ~/Downloads/pipedream.com.cer
+c
+keytool -import -noprompt -trustcacerts -alias http://www.example.com -file ~/Downloads/pipedream.com.cer -keystore cacerts
+clear
+l
+c
+keytool -import -noprompt -trustcacerts -alias https://eo2yi55jkf25g48.m.pipedream.net -file ~/Downloads/pipedream.com.cer -keystore cacerts
+docker exec -it e27ea6ac2f90 sh
+keytool -import -noprompt -trustcacerts -alias https://pipedream.com -file ~/Downloads/pipedream.com.cer -keystore cacerts
+keytool -list 
+keytool -list https://eo2yi55jkf25g48.m.pipedream.net
+keytool -list -alias https://eo2yi55jkf25g48.m.pipedream.net
+keytool -list -keystore ./cacerts 
+c
+keytool -list -keystore ./cacerts -alias https://eo2yi55jkf25g48.m.pipedream.net
+keytool -list -cacerts
+c
+keytool -list -cacerts -alias https://eo2yi55jkf25g48.m.pipedream.net
+docker exec -it e27ea6ac2f90 sh
+c
+docker exec -it e27ea6ac2f90 sh
+docker exec -u root e27ea6ac2f90 chmod 777 .
+docker exec -it e27ea6ac2f90 sh
+docker exec -u root e27ea6ac2f90 chmod -R 777 .
+docker exec -u root e27ea6ac2f90 chmod -R 777 /etc/pki/ca-trust
+docker exec -it e27ea6ac2f90 sh
+clear
+docker exec -it e27ea6ac2f90 sh
+clear
+zi
+clear
+c
+nx serve webservices
+c
+v
+gho
+c
+ghostty +theme-names
+ghostty +list-themes
+v
+c
+c
+brew install wezterm
+clear
+ln -s ~/dotfiles/macos/wezterm ~/.config/wezterm
+v .
+clear
+cd macos/
+ls
+l
+cd wezterm/
+l
+rm -rf wezterm
+l
+clear
+clear
+ghostty +list-fonts
+v
+cd ..
+cd .config
+z .config
+clear
+rm -rf wezterm
+clear
+z dot
+z wez
+ls
+l
+rm -rf dark-desert.jpg
+l
+clear
+l
+clear
+cd ..
+l
+car symlinks.conf
+cat symlinks.conf 
+c
+clear
+cd ..
+clear
+c
+brew uninstall wezterm
+lear
+clear
+c
+clear
+z dot
+clear
+tmux attach
+brew install zellij
+clear
+c
+cadsf
+zellij
+exit
+exit
+zellij attach
+clear
+zellij list
+zellij ls
+clear
+zi .conf
+git clone https://github.com/omerxx/dotfiles.git ./omerxx
+cd omerxx/
+ls
+clear
+l
+cp -f ./zellij/ ~/.config/zellij
+git clone https://github.com/chintanbuch/keycloak-client-webhook.git
+l
+rm -rf keycloak-client-webhook/
+clear
+l
+cp -Rf ./zellij/ ~/.config/zellij
+cp -rf ./zellij/ ~/.config/zellij
+cd ..
+cd zellij/
+ls
+l
+cd zellij/
+l
+cd ..
+l
+z omer
+clear
+cp -f ./zellij ~/.config/zellij
+cp -rf ./zellij ~/.config/zellij
+cd ..
+cd zellij/
+ls
+l
+cp -rf ./zellij ~/.config
+l
+cd ..
+cd zellij/
+l
+rm -rf zellij/
+ls
+clear
+exit
+exit
+zellij
+zellij 
+z zelli
+v
+c
+zellij 
+v
+c
+clear
+exit
+exit
+exit
+exitexit
+exit
+zellij 
+clear
+zellij 
+exit
+zellij
+exit
+zellij attach
+zellij ls
+clear
+exit
+v
+c
+tmux move-session -t dotfiles -s 0
+exit
+tmux move-session -t dotfiles -s 0
+tmux move-session
+exit
+tmux attach
+tmux list-sessions 
+tmux list-sessions
+tmux list-sessions | reverse
+tmux list-sessions 
+tmux list-sessions
+tmux a
+clear
+tmux a
+clear
+tmux list-sessions
+lera
+c
+z Proj
+cd `MySQL settings/`
+v
+node server.js 
+npm i
+c
+ls
+clear
+l
+rm -rf package-lock.json
+rm -rf node_modules/
+clear
+npm i
+clear
+l
+npm i -f
+fnm
+fnm use 18
+npm i
+node server.js 
+c
+v
+node server.js 
+c
+nx serve webservices
+ghostty +keybinds
+ghostty +key_binds
+node 'node_modules/.bin/jest' '/Users/andriiskochypets/Projects/Enrollment-Manager-API/libs/keycloak/src/lib/clients/ClientAuthorization.test.ts' -c '/Users/andriiskochypets/Projects/Enrollment-Manager-API/libs/keycloak/jest.config.ts' -t 'ClientAuthorization tests'
+c
+ghosty +help
+ghosty help
+ghostty +help
+ghostty +list-keybinds
+ghostty +list-keybinds | fzf
+clear
+c
+c
+git remote add upstream git@github.com:Planstin/Enrollment-Manager-API.git
+git config remote.upstream.pushurl "NEVER GONNA GIVE YOU UP"<\n>
+git remove
+git remote
+git fetch upstream
+c
+git feth --prune upstream
+git fetch --prune upstream
+git pull upstream master --no-commit
+git pull upstream
+git pull upstream master
+git pull origin master
+git pull origin main
+git pull origin develop
+git pull upstream master --allow-unrelated-histories
+git --abort merge
+git merge --abort
+clear
+git pull upstream master --allow-unrelated-histories --no-commit
+git p updates
+clear
+git mv ./environments/ apps/api/environments/
+git checkout updates
+git pull origin updates
+c
+git mv ./environments/ apps/api
+git mv -f ./environments/ apps/api
+git mv -f ./environments ./apps/api/
+clear
+c
+mv -f ./environments ./apps/api
+mv -rf ./environments ./apps/api
+mv -rf ./environments/* ./apps/api/environments/
+mv -f ./environments/* ./apps/api/environments/
+mv -f ./docs/* ./apps/api/docs/
+git r dev
+pnpm i
+c
+nx test api
+git checkout master
+git r master
+clear
+git r master
 clear
 git alias
-git acm
-cx dotfile
+git bc
+clear
+git checkout master
+clear
+git checkout dev
+git checkout master
+clear
+git pull
+git r master
 clear
 c
+v
+c
+nx test api
+nx reset
+nx test api
+nx test auth
 clear
-z dotfiles
+nx test auth
+nx clean cache
+\:bufdo bwipeout | if bufexists('#') | edit # | endif\<\n>:e /Users/andriiskochypets/Projects/Enrollment-Manager-API/libs/typeormdb/src/lib/migrations/1718186042077-Add-RenewalStatus-Enum-To-Account.ts\<\n>:bufdo bwipeout | if bufexists('#') | edit # | endif\<\n>:e /Users/andriiskochypets/Projects/Enrollment-Manager-API/libs/typeormdb/src/lib/migrations/1682695622092-Update_fields_in_contact_base_table.ts\<\n>:bufdo bwipeout | if bufexists('#') | edit # | endif\<\n>:e /Users/andriiskochypets/Projects/Enrollment-Manager-API/services/employees/project.json\<\n>qc\<\n>cc
+c
+nx test api
+node -v
+fnm use 20
 clear
+nx test api
+fnm user 22
+fnm use 22
+clear
+nx test api:auth
+ps
+ps | where mem > 0
+ps | where cpu > 0
+ps | where cpu > 0 | where status = running
+ps | where cpu > 0 | where status = 'running'
+ps | where status = running
+ps | where 'status' = running
+ps
+ps | to json
+ps | where "status" = running
+ps | where cpu > 0
+ps | where mem > 0
+ps | where mem | to int
+ps | where mem | number
+ps | where mem 
+clear
+nx test auth
+clear
+git checkout develop
+nx test auth
+nx reset 
+nx test auth
+git checkout updates
+nx reset
+nx test auth
+nx test db
+nx test @lib/db
+clear
+nx test @lib
+nx test @lib/db
+clear
+nx test db
+zsh
+node --max-old-space-size
+process.memoryUsage
+$env.NODE_OPTIONS
+clear
+zsh 
+clear
+nx serve auth
+c
+nx test db
+c
+nx test db
+c
+nx test db
+nx run @lib/db:test --skip-nx-cache<\n>
+cc
+clear
+nx run @lib/db:test --skip-nx-cache
+NODE_OPTIONS="--inspect" nx run @lib/db:test<\n>
+clear
+git checkout develop
+nx test db
+git r develop
+c
+v
+nx reset
+nx test auth
+clear
+nx reset
+nx test db
+clear
+git r develop
+git r updates
+clear
+exit
+tmux attach
+cd Projects/Enrollment-Manager/
+clear
+clera
+c
+clear
+git r master
+clear
+nx test ui
+clear
+nx test auth
+cc
+c
+cd apps/api/
+ear
+pnpm deploy:all
+c
+pnpm build:all
+pnpm deploy:all
+c
+git r ci
+clear
+git pull origin develop
+git push
+git pull origin develop
+clear
+nx db:migration-generate
+nx db:migration-generate api TEST
+c
+git r develop
+git r ci
+clear
+nx graph
+pnpm deploy:all
+c
+v
+cd . ..
+cd ..
+clear
+rm -rf pnpm-lock.yaml
+pnpm install
+c
+exit
+clear
+rm -rf node_modules/
+fnm default 20
+clear
+rm -rf pnpm-lock.yaml
+rm -rf package-lock.json
+clear
+cd api
+clear
+pnpm i
+npx nx dep-graph --focus=ee-wizard-renew
+npx nx dep-graph --focus=@service/auth
+npx nx dep-graph --focus=@service/ee-wizard-renew
+c
+nx graph
+cc
+c
+nx graph
+c
+nx test
+nx graph
+c
+nx graph
+c
+nx graph
+c
+nx reset
+nx graph
+clear
+nx reset
+nx graph
+c
+npx nx generate @nx/workspace:remove api
+npx nx generate @nx/workspace:remove @planstin-portal/api
+nx reset
+nx graph
+c
+nx graph
+c
+nx reset
+nx graph
+nx reset
+nx graph
+c
+s
+c
+nx serve accounts
+c
+git r dev
+clear
+git p signup-reset-fix
+pnpm -v
+which pnpm
+npm list -a
+npm list
+npm ll 
+npm -g uninstall pnpn
+npm -g uninstall pnpm
+pnpm ls
+pnpm --version
+pnpm -g ls
+pnpm ls -g
+pnpm root -g
+npm rm -g pnpm<\n><\n>
+pnpm
+pnpm store path
+which pnpm
+pnpm path
+pnpm store path
+echo $PNPM_HOME
+$env.PNPM_HOME
+$env.$PNPM_HOME
+brew uninstall pnpm
+pnpm
+pnpm root
+pnpm root -f
+pnpm root -g
+rm -rf "$PNPM_HOME"<\n><\n>
+zah
+zsh
+cd /usr/local/bin
+l
+l | find pnpm
+l
+l | find pnpm
+l -a 
+ls -a
+ls -la
+ls -l | find pnpm
+cd ../lib/node_modules/
 ls
+rm -rf pnpm
+pnpm
+clear
+which pnpm
+clear
+pnpm
+$env.PAHT
+$env.PATH
+pnpm
+clear
+sdf
+pnpm
+pnpm -v
+clear
+clear
+pnpm -v
+corepack enable
+pnpm -b
+pnpm -v
+clear
+pnpm -v
+clear
+node -v
+corepack enable
+pnpm -v
+pnpm install --offline --frozen-lockfile
+pnpm clean
+rm -rf node_modules/
+rf -rf pnpm-lock.yaml
+clear
+rm -rf pnpm-lock.yaml
+clear
+rm -rf apps/api/node_modules/
+rm -rf apps/ui/node_modules/
+pnpm i
+clear
+pnpm upgrade
+clear
+pnpm install --offline --frozen-lockfile
+pnpm install --prefer-offline --frozen-lockfile
+clear
+pnpm install
+nx lint-lockfile
+nx lint-lockfile api
+nx run @planstin-portal/api:lint-lockfile
+nx lint-lockfile ui
+clear
+nx lint-lockfile ui
+npx lint-staged
+rm -rf node_modules/
+clear
+pnpm install
+c
+nx affected
+nx affected api
+c
+nx affected -t deploy
+nx affected -t deploy --base=origin/master --head=HEAD
+c
+nx affected -t deploy --base=origin/master --head=HEAD
+git branch -a
+c
+nx affected -t deploy --base=master --head=HEAD
+nx affected -t deploy --base=origin/main --head=HEAD
+nx affected -t test --base=origin/main --head=HEAD
+nx affected -t test --base=origin/maste --head=HEAD
+nx affected -t test --base=origin/master --head=HEAD
+nx affected -t test --base=master --head=HEAD
+nx test:affected
+nx test:affected api
+nx affected -t test
+c
+nx affected -t test --base=origin/develop --head=HEAD
+nx test @lib/manasters
+nx test @lib/managers
+clear
+nx test @lib/managers
+c
+v
+clear
+fnm use 22
+c
+nx test @lib/managers
+v
+nx test managers
+nx test api
+clear
+git lint api
+nx lint api
+clear
+nx affected -t test --base=origin/develop --head=HEAD
+c
+nx affected -t test --base=origin/develop --head=HEAD
+nx affected -t lint --base=origin/develop --head=HEAD
+c
+nx affected -t lint --base=origin/develop --head=HEAD
+nx lint
+c
+git r dev
+c
+nx lint tools
+v
+c
+clear
+nx affected -t lint --base=origin/develop --head=HEAD
+nx affected -t lint --base=origin/main --head=HEAD
+nx affected -t lint
+clear
+nx test tools
+nx lint tools
+c
+nx affected -t lint
+nx affected -t lint --base=origin/main --head=HEAD
+nx affected -t lint --base=origin/dev --head=HEAD
+clear
+nx lint tools
+clear
+git acm 'Fix lint errors'
+git acm 'Remove lint-lockfile'
+git push
+clear
+nx affected -t lint --base=origin/dev --head=HEAD
+nx affected -t test
+nx affected -t test --base=origin/main --head=HEAD
+nx affected -t test --base=origin/dev --head=HEAD
+git r main
+git remote remove upstream 
+c
+git pull
+git r dv
+git r dev
+clear
+git push origin dev:main
+nx affected -t test --base=origin/main --head=HEAD
+nx affected -t test --base=origin/main~1 --head=HEAD
+nx affected -t test --base=origin/main --head=HEAD
+v
+ps
+ps | where cpu > 0
+clear
+ps | where cpu > 0 | order
+ps | where cpu > 0
+nx run-many --target=lint
+c
+nx run-many --target=test api
+c
+nx run-many --target=test --include=@planstin-portal/api
+nx run-many --target=test --projects=@planstin-portal/api
+v
+git r dev
+clear
+nx format:check
+nx affected -t deploy --base=origin/dev --head=HEAD
+clear
+nx lint:affected
+nx run lint:affected
+nx lint:affected source
+nx lint:affected @planstin-portal/source
+pnpm lint:affected
+v
+pnpm lint:affected
+c
+exit
+c
+nx affected:api -t lint --base=origin/dev --head=HEAD
+nx affected -t lint --base=origin/dev --head=HEAD --exclude=@service/*
+nx affected -t lint --base=origin/dev --head=HEAD --exclude=@planstin-portal/*
+nx affected -t lint --base=origin/dev --head=HEAD --exclude=@service/*,@lib/*
+pnpm lint:affected
+nx reset
+pnpm lint:affected
+git r dev
+pnpm lint:affected
+clear
+pnpm lint:affected
+nx affected -t lint --base=origin/dev --head=HEAD
+nx lint api
+c
+nx lint api
+git r dev
+pnpm lint:affected
+git r dev
+c
+pnpm lint:affected
+c
+pnpm lint:affected
+clear
+nx reset
+pnpm lint:affected
+pnpm test:affected
+c
+pnpm build:affected
+clear
+pnpm build:affected
+c
+nx build:all api
+c
+pnpm build:affected
+nx reset
+pnpm build:affected
+nx build employee
+clear
+nx build employee
+nx run --target=build employee
+nx --target=build employee
+nx run employee:build
+c
+nx run-many --target=build --projects=employee
+c
+nx reset
+nx build:all api
+nx build accounts
+clear
+nx build accounts
+nx reset
+nx build accounts
+c
+nx run-many --target=build --projects=employee,accounts
+clear
+cd apps/api/
+pnpm build:all
+c
+cd ..
+nx reset
+nx build:all api
+nx reset
+cd ../.. && nx run-many --target=build --exclude=@planstin-portal/*
+cd ../..
+nx run-many --target=build --projects=employee,accounts
+zi por
+clear
+nx run-many --target=build --projects=employee,accounts
+cd apps/api
+nx run-many --target=build --projects=employee,accounts
+clear
+nx build:affected api
+c
+nx build:affected api
+nx reset
+nx build:affected api
+cd ../..
+nx build accounts
+clear
+nx serve
+nx serve api
+cd apps/api
+pnpm server
+pnpm run serve
+pnpm run build
+pnpm run build:all
+c
+pnpm run build:all
+cc
+pnpm run sere
+pnpm run serve
+c
+cd ../..
+nx serve api
+c
+nx serve accounts
+c
+nx serve accounts
+c
+nx serve:accounts api
+cd apps/api
+clear
+nx serve accounts
+pnpm run serve:accounts
+clear
+nx serve accounts
+nx serve:accounts api
+c
+nx serve:accounts api
+which nx
+z api
+zi api
+pnpm run serve:accounts
+cd ..
+clear
+which nx
+nx --version
+brew uninstall nx
+pnpm remove nx
+pnpm remove nx -g
+npm -g uninstall nx
+clear
+nx
+nx --tui
+clear
+c
+nx --version
+npm remove --global nx
+brew uninstall nx
+which nx
+which nx l
+which nx | ;l
+which nx | l
+l | which nx
+l
+which nx
+zi bin
+l
+l -a
 la
 ls
 clear
+l -a
+l -la
 ll
+clear
+ll
+ll | find nx
+zi portal
+clear
+npm rm --global nx
+npm list --global nx
+yarn dlx list nx
+yarn
+pnpm list --global nx
+pnpm rm --global nx
+npm rm --global nx
+pnpm
+nx
+nx --version
+npm cache clean --force
+nx --version
+cd ..
+nx --version
+clear
+npm uninstall -g nx
+bun remove -g nx
+pnpm rm --global nx
+nx root -g
+brew install nx
+which nx
+nx --version
+brew uninstall nx
+clear
+nx
+nx --ve
+nx --version
+clear
+cd /usr/local/bin
+ls
+clear
+ll
+clear
+ll | find nx
+cd ../lib/node_modules/
+rn -rf nx/
+rm -rf nx/
+cd ..
+nx --version
+nx
+cd ..
+/bin/
+l
+ll | find nx
+clear
+ls
+l
+claer
+l | find nx
+clear
+r
+rr
+clear
+ranger
+clear
+zi por
+nx
+clear
+nx --version
+cd apps/api
+pnpm run serve:accounts
+c
+cd ..
+pnpm run serve:accounts
+clear
+cd ~
+z ~
+z por
+cd apps/api
+pnpm run serve:accounts
+npm add --global nx
+nx serve:accounts api
+cc
+c
+nx run accounts:serve
+nx serve @service/accounts
+nx run @service:accounts
+nx run @service/accounts
+nx run @service/accounts:serve
+c
+nx serve:accounts api --verbose
+pnpm run serve:accounts
+c
+pnpm nx 
+pnpm nx serve accounts
+nx serve accounts
+nx serve:accounts api
+nx serve:one:accounts pi
+nx serve:one:accounts api
+nx serve:one api
+nx serve:one api accounts
+nx serve api/accounts
+nx serve api:accounts
+nx serve api
+nx run @planstin-portal/api:accounts:serve
+nx run @planstin-portal/api/@service/accounts:serve
+nx run @planstin-portal/api:@service/accounts:serve
+nx serve @planstin-portal/api:@service/accounts
+nx serve:one api accounts
+nx serve api:accounts
+nx serve api
+nx serve api accounts
+c
+nx serve api accounts
+clear
+nx serve:all api
+c
+clear
+nx serve:all api
+c
+nx serve:all api
+c
+nx build:all api
+clear
+nx test api auth
+nx test api
+nx start ui
+c
+nx lint api
+nx lint auth
+nx lint api auth
+clear
+nx lint:all api
+nx test auth
+clear
+nx build:affected api
+c
+nx build:affected api
+clear
+nx build:affected api
+c
+nx db:entity-create api test
+clear
+nx db:migration-create api test
+nx db:migration-generate api test
+c
+nx db:migration-generate api test
+c
+nx db:migration-generate api test
+c
+nx db:migration-generate api test
+cd ../..
+clear
+nx db:migration-generate api test
+c
+nx db:migration-generate api test
+nx db:migration-generate ap
+nx db:migration-generate api
+c
+nx db:migration-generate api
+clear
+nx db:migration-generate api
+npx ts-node tools/src/generate-migration-post-process.ts
+npx tsx tools/src/generate-migration-post-process.ts
+clear
+nx db:migration-generate api
+nx db:migration-generate api test
+c
+nx db:migration-generate api test
+clear
+nx db:migration-generate
+nx db:migration-generate api
+nx db:migration-generate api test
+clear
+nx db:migration-generate api test
+c
+nx db:migration-generate api test
+c
+nx db:migration-generate api test
+nx erd:generate api
+c
+nx erd:generate api
+clear
+nx build:affected api
+nx reset
+clear
+nx build:affected api
+clear
+nx affected -t build --base=origin/dev --head=HEAD --exclude=@planstin-portal/*
+nx reset
+nx affected -t build --base=origin/dev --head=HEAD --exclude=@planstin-portal/*
+c
+cd apps/api
+pnpm build:all
+cear
+clear
+pnpm build:all --filter=api
+cd ..
+clear
+pnpm build:all
+pnpm build:all --filter=api
+pnpm run build:all
+pnpm --filter api build:all
+c
+pnpm -build:all
+pnpm build:all
+clear
+git tag
+git show 2023-25
+c
+git tag
+git show v0.01.0-alpha
+git l
+git r main
+c
+git l
+git tag 2025-25-v1
+git push origin 2025-25-v1
+git tag
+clear
+git tag
+git show
+git show 2025-25-v1
+c
+git show 2025-25-v1
+c
+nx affected:test
+git r main
+git r dev
+git pull origin main
+git push
+git l
+git r main
+git pull
+git r dev
+git f
+git l
+git r main
+clear
+git l
+git tag remove 2025-25-v1
+git push origin :refs/tag/2025-25-v1
+git tag
+clear
+git tag -d 2025-25-c1
+git tag -d 2025-25-v1
+clear
+git tag
+clear
+git f
+git tag
+git push origin --delete 2025-25-v1
+git tag
+clear
+git f
+git tag
+git tag -d 2025-25-v1
+git tag
+clear
+git f
+git tag
+git l
+git f
+git r main
+clear
+git ll
+git alias
+git llg
+git lg
+git l
+c
+git l
+clear
+git checkout -b dev
+git p dev
+clear
+git l
+c
+git remote api git@github.com:Planstin/Enrollment-Manager-API.git
+git remote add "api" git@github.com:Planstin/Enrollment-Manager-API.git
+git remove
+git remote
+git remote add "ui" git@github.com:Planstin/Enrollment-Manager.git
+git remote
+clear
+git merge --no-commit ui/master
+git merge origin/master
+git fetch --prune ui
+c
+git merge --no-commit ui/master
+git merge --no-commit ui/master -f
+git merge --no-commit ui/master --allow-unrelated-histories
+git merge --abort
+clear
+git stop
+git abort
+git --abort
+git merge --abort
+rm -rf .git/index.lock
+git merge --abort
+clear
+git fetch --prune ui
+clear
+git fetch --prune api
+clear
+git pull origin dev
+git pull origin main
+lear
 c
 l
-zi dotfiles
+clear
+git l
+clear
+git l | find origin
+clear
+git l origin 
+git l 
+clear
+git alias
+git l HEAD..origin/main
+c
+git l --remotes=origin
+c
+git log --remotes origin
+git log --remotes=origin
+git alias
+git l --remotes=origin
+c\
+c
+git l origin
+git log origin/main
+git l origin/main
+git r dev
+c
+git l
+clear
+git l --decorate origin/main
+git l -- origin/main
+clear
+git l -- origin
+git l
+clear
+git l --exclude=refs/remotes/api --all
+git remote
+git log --graph --oneline --exclude=refs/remotes/* --all<\n>
+git log --graph --oneline
+c
+git log --graph --oneline
+git ll
+git lg
+git alias
+clear
+lg
+git lg
+git merge --no-commit ui/master --allow-unrelated-histories
+git merge -abort
+git merge --abort
+clear 
+clear
+git merge --no-commit ui/master --allow-unrelated-histories
+nx lint ui
+clear
+nx lint ui
+nx lint ui --fix
+c
+clear
+git fetch --prune api
+git fetch --prune ui
+clear
+git merge --no-commit ui/master --allow-unrelated-histories
+nx lint ui
+clear
+nx lint ui
+c
+nx lint ui
+c
+nx lint ui
+c
+nx test ui
+nx lint ui --fix
+prettier --write
+prettier
+eslint --fix
+clear
+v
+nx lint ui
+git push
+git push --ser-upstream origin dev
+git push --set-upstream origin dev
+git push
+git merge --no-commit api/master --allow-unrelated-histories
+nx lint api
+nx lint api --fix
+c
+git acmn 'Merge api latest changes'
+git push
+clear
+git r main
+clear
+git tag 2025-25-v1
+clear
+git tag
+git push origin 2025-25-v1
+c
+nx serve auth
+c
+nx serve api accounts
+nx serve api auth
+nx start ui
+c
+c
+git r dev
+git acm 'Cleanup accounts service'
+git acmn 'Cleanup accounts service'
+git push
+git pull origin main
+git default
+git config
+c
+git config --global
+git config --global editor
+git config --global core.editor
+git config --global core.editor v
+git config --global core.editor "v"
+clear
+git push
+git fetch --prune origin
+git tag
+git push origin --delete remove
+eslint --version
+eslint update
+npx eslint .
+npx eslint --version
+npx eslint apps/ui/src
+eslint apps/ui/src
+cd ~
+which eslin
+which eslint
+cd /usr/local/bin
+ls
+clear
+l | find eslint
+ll | find eslint
+cd ../lib/node_modules
+rm -rf eslint/
+clear
+eslint
+nx lint ui
+clear
+eslint
+git r dev\
+git r dev
+eslint
+clear
+npm list --global
+clear
+pnpm list
+pnpm list --global
+yarn
+clear
+npm list --global
+npm remove --global nx
+clear
+nx
+clear
+npx nx --version
+clear
+nx
+clear
+npx nx
+clera
+clear
+npm run nx
+nx 
+nx serve api auth
+clear
+nx
+npx nx --version
+npm add --global nx@22.0.1
+npm list --global
+nx --vesion
+nx --version
+clera
+c
+git l
+git ll
+git l
+git f
+git l
+git pull origin master
+git pull origin main
+git config --global core.editor "nvim"
+git pull origin main
+git merge --abort
+git l
+clear
+git r dev
+git pull origin dev
+git pull origin main
+git push
+git l
+git f
+clea
+clear
+git l
+git r main
+git l
+git tag
+git tag -d remove
+git tag
+clear
+git l
+git lg
+git llg
+git lg
+git l
+git ll
+git lg
+git r dev
+clear
+git lg
+git l
+clear
+v
+git r dev
+clear
+nx db:migration-generate api Update_table_CoverageTierBook
+nx db:migration-create api Update_table_CoverageTierBook
+cat /etc/hosts
+clear
+c
+cat /etc/hosts
+nx db:migration-generate api Update_table_CoverageTierBook
+clear
+git pull origin dev
+clear
+v
+git checkout -b pp-212
+git pull origin dev
+clear
+tmux attach
+c
+i
+c
+qq
+c
+a
+exit
+c
+clear
+git fetch --prune
+git remote
+git remote remove api
+git remote remove ui
+git remote
+clear
+git f
+clear
+git tag
+ngrok http 3055
+c
+clear
+nx serve webservices
+c
+nx serve api agent-offerings
+clear
+git pull origin dev
+git config --global core.editor "vi"
+vi
+bi
+vim
+v /Users/andriiskochypets/.vimrc 
+vi
+/var/folders/kz/hzb64bd13dq3frxjsjqv6hth0000gn/T
+cd /var/folders/kz/hzb64bd13dq3frxjsjqv6hth0000gn/T
+ls
 clear
 l
+clear
+vi
+cd ~
+cd /Users/andriiskochypets/
+v .vimrc 
+v
+vi
+clear
+v
+vi
+v .vimrc 
+zi portal
+git pull origin dev
+brew ungrade vim
+brew upgrade vim
+vi
+which vi
+brew upgrade vi
+alias
+$env
+$nu
+$nu.alias
+alias
+which vim
+vim
+brew install vim
+clear
+vi
+clear
+tmux attach
+vi
+zsh
+clear
+tmux attach
+exit
+which vi
+brew rm vim
+which vi
+vi
+mv ~/.vimrc ~/.vimrc_back
+vi
+clear
+git config --global core.editor "vi"
+clear
+which vi
+clear
+which nvim
+clear
+git pull origin dev
+git push
+clear
+zi My
+fnm use 18
+node server.js 
+c
+nx serve api agent-offerings
+c
+nx serve api agent-offerings
+git pull origin dev
+clear
+git push
+clear
+cd apps/api/libs/db/src/lib/affiliate-offering/
+eslint affiliate-offering.repository.ts
+eslint
+npx eslint affiliate-offering.repository.ts
+query: SELECT `AffiliatePlanOfferingBASE`.`AffiliatePlanOfferingID` AS `AffiliatePlanOfferingID`, `AffiliatePlanOfferingBASE`.`AffiliateID` AS `AffiliateID`, `benefitPlan`.`BenefitPlanID` AS `BenefitPlanID`, `benefitPlan`.`IsMVPFLG` AS `IsMVPFLG`, `plan`.`PlanID` AS `PlanID`, `plan`.`PlanVideoLinkTXT` AS `PlanVideoLinkTXT`, `planFamily`.`PlanFamilyLookupID` AS `PlanFamilyLookupID`, `coverageTierPrice`.`CoverageTierPriceID` AS `CoverageTierPriceID`, `tierLookup`.`TierLookupID` AS `TierLookupID`, `groupPlanOffering`.`GroupPlanOfferingID` AS `GroupPlanOfferingID`, `AffiliatePlanOfferingBASE`.`IsActiveFLG` AS `IsActiveFLG`, `benefitPlan`.`PlanDetailsLinkTXT` AS `PlanDetailsLinkTXT`, `benefitPlan`.`DisplayNM` AS `BenefitPlanDisplayNM`, `benefitPlan`.`IsMECFLG` AS `IsMECFLG`, `benefitPlan`.`DisplayOrderNBR` AS `DisplayOrderNBR`, `benefitPlan`.`IsSelectedByDefaultFLG` AS `IsBenefitPlanDefaultFLG`, `plan`.`IsSelectedByDefaultFLG` AS `IsPlanDefaultFLG`, `planFamily`.`PlanFamilyCD` AS `PlanFamilyCD`, `planFamily`.`PlanCategoryID` AS `PlanCategoryID`, `coverageTierPrice`.`BaseRateAMT` AS `BaseRateAMT`, `coverageTierPrice`.`GroupSizeMinNBR` AS `GroupSizeMinNBR`, `coverageTierPrice`.`GroupSizeMaxNBR` AS `GroupSizeMaxNBR`, `coverageTierPrice`.`MinAgeNBR` AS `MinAgeNBR`, `coverageTierPrice`.`MaxAgeNBR` AS `MaxAgeNBR`, `coverageTierPrice`.`StartDTS` AS `StartDTS`, `coverageTierPrice`.`EndDTS` AS `EndDTS`, `tierLookup`.`TierCD` AS `TierCD` FROM `AffiliatePlanOfferingBASE` `AffiliatePlanOfferingBASE` INNER JOIN `BenefitPlanBASE` `benefitPlan` ON `benefitPlan`.`BenefitPlanID`=`AffiliatePlanOfferingBASE`.`BenefitPlanID`  INNER JOIN `PlanBASE` `plan` ON `plan`.`PlanID`=`benefitPlan`.`PlanID`  INNER JOIN `PlanFamilyLookupBASE` `planFamily` ON `planFamily`.`PlanFamilyLookupID`=`plan`.`PlanFamilyLookupID`  INNER JOIN `CoverageTierPriceBASE` `coverageTierPrice` ON `coverageTierPrice`.`BenefitPlanID`=`benefitPlan`.`BenefitPlanID`  INNER JOIN `CoverageTierBookBASE` `coverageTierBook` ON `coverageTierBook`.`CoverageTierBookID`=`coverageTierPrice`.`CoverageTierBookID` AND (<\n>        (<\n>          CASE<\n>              WHEN `coverageTierBook`.`AccountID` IS NOT NULL THEN 1<\n>              WHEN `coverageTierBook`.`AffiliateContractID` IS NOT NULL THEN 2<\n>              ELSE 3<\n>          END<\n>        ) = (<\n>          SELECT MIN(<\n>              CASE<\n>                  WHEN ctbb.AccountID IS NOT NULL THEN 1<\n>                  WHEN ctbb.AffiliateContractID IS NOT NULL THEN 2<\n>                  ELSE 3<\n>              END<\n>          )<\n>          FROM CoverageTierPriceBASE ctpb<\n>          JOIN CoverageTierBookBASE ctbb ON ctbb.CoverageTierBookID = ctpb.CoverageTierBookID<\n>          WHERE ctpb.BenefitPlanID = benefitPlan.BenefitPlanID<\n>        ))  INNER JOIN `TierLookupBASE` `tierLookup` ON `tierLookup`.`TierLookupID`=`coverageTierPrice`.`TierLookupID`  LEFT JOIN `account` `account` ON `account`.`id` = ?  LEFT JOIN `BenefitPlanRestrictedIndustryBASE` `restrictedIndustry` ON `restrictedIndustry`.`BenefitPlanID` = `AffiliatePlanOfferingBASE`.`BenefitPlanID` AND `restrictedIndustry`.`IndustryID` = ?  LEFT JOIN `GroupPlanOfferingBASE` `groupPlanOffering` ON `groupPlanOffering`.`BenefitPlanID` = `AffiliatePlanOfferingBASE`.`BenefitPlanID` AND `groupPlanOffering`.`AccountID` = ? WHERE `AffiliatePlanOfferingBASE`.`IsActiveFLG` = 1 AND `AffiliatePlanOfferingBASE`.`AffiliateID` = ? AND `planFamily`.`DisplayOrderSEQ` > 0 AND `coverageTierPrice`.`IsActiveFLG` = 1 AND `restrictedIndustry`.`BenefitPlanID` IS NULL AND ((DATE(`coverageTierPrice`.`StartDTS`) <= IF(ISNULL(`account`.`NextRenewalDTS`), DATE(`account`.`GroupEffectiveDTS`), DATE_SUB(`account`.`NextRenewalDTS`, INTERVAL 1 YEAR)) OR `coverageTierPrice`.`StartDTS` IS NULL) AND (DATE(`coverageTierPrice`.`EndDTS`) >= IF(ISNULL(`account`.`NextRenewalDTS`), DATE(`account`.`GroupEffectiveDTS`), DATE_SUB(`account`.`NextRenewalDTS`, INTERVAL 1 YEAR)) OR `coverageTierPrice`.`EndDTS` IS NULL)) AND ((`coverageTierPrice`.`GroupSizeMinNBR` <= ? OR `coverageTierPrice`.`GroupSizeMinNBR` IS NULL) AND (`coverageTierPrice`.`GroupSizeMaxNBR` >= ? OR `coverageTierPrice`.`GroupSizeMaxNBR` IS NULL)) ORDER BY `planFamily`.`DisplayOrderSEQ` ASC, IFNULL(`benefitPlan`.`DisplayOrderNBR`, 99999999999) ASC, `coverageTierPrice`.`TierLookupID` ASC, `coverageTierPrice`.`BaseRateAMT` DESC -- PARAMETERS: [819,15,819,335,2,2]<\n> cd /Users/andriiskochypets/Projects/planstin-portal
+c
+npx eslint affiliate-offering.repository.ts --fix
+git r dev
+clear
+nx serve webservices
+c
+which nx
+v
+fnm list
+git r main
+clera
+c
+git f
+clear
+git remote add "api" git@github.com:Planstin/Enrollment-Manager-API.git
+git fetch --prune api
+clear
+git pull api master
+git merge --no-commit api/master --allow-unrelated-histories
+git merge --abort
+git r main
+git r dev
+clear
+git r main
+git tag
+clear
+git tag
+git tag 2025-26-v1
+git push origin 2025-26-v1
+git tag
+git tag 2025-25-v1.1
+git tag -g
+git tag -l
+clear
+git tag -h
+git tag -n
+git show 2025-26-v1
+c
+git show 2025-25-v1.1
+clear
+git ll
+c
+git l
+git r dev
+clear
+git l
+git pull origin main
+c
+git r main
+nx serve api webservices
+c
+nx serve api webservices
+c
+nx serve api webservices
+c
+nx serve api webservices
+c
+nx serve api webservices
+c
+nx serve api webservices
+c
+nx serve api webservices
+c
+nx serve api auth
+:bufdo bwipeout | if bufexists('#') | edit # | endif
+:e /Users/andriiskochypets/Projects/Enrollment-Manager-API/libs/managers/src/lib/v2/account.manager.ts
+clear
+node server.js
+c
+git r dev
+clear
+nx serve api auth
+lear
+c
+nx serve api auth
+git acm 'Add error log for auth middleware'
+git acmn 'Add error log for auth middleware'
+git push
+eslint
+clear
+git r dev
+ls ..
+l ..
+git acmn 'Add error log for auth middleware'
+git push
+git r dev
+clear
+git acmn 'Add error log for auth middleware'
+git push
+clear
+node server.js
+c
+c
+git acmn 'Add error log for auth middleware'
+git push
+git r dev
+git acmn 'Add error log for auth middleware'
+git push
+git acmn 'Add error log for auth middleware'
+git push
+git acmn 'Add error log for auth middleware'
+git push
+c
+git acmn 'Add error log for auth middleware'
+git push
+git acmn 'Add error log for auth middleware'
+git push
+v
+nx test api keycloak
+nx test keycloak
+c
+nx test keycloak
+c
+clear
+nx reset
+nx test keycloak
+c
+nx test keycloak
+clear
+git acmn 'Update secrets'
+git push
+git pull
+c
+git r dev
+c
+clear
+v
+fnm use 22
+git acmn 'Update secrets'
+git push
+git r dev
+c
+git acmn 'Update create-group to strictly use defined fields'
+git push
+git remote remove api
+git f\
+git f
+c
+pnpm install
+pnpm upgrade @planstin/ui
+git pull
+git pull origin dev
+c
+git r dev
+git pull
+git r main
+git push -f origin:update-secrets
+git push -f main:update-secrets
+git r dev
+c
+git acmn 'PP-218. Keycloak users password'
+git p pp-218
+git r dev
+clear
+git pull origin stg
+git acm 'Merge stg into dev'
+git acmn 'Merge stg into dev'
+git push origin dev
+git p dev-stg
+clear
+nx serve api auth
+npm config get cafile
+npm config get cafile ~/Downloads/ca.planstin.goskope.com.pem
+npm config
+npm config get cafile
+npm config get
+npm config set cafile ~/Downloads/ca.planstin.goskope.com.pem
+npm config get cafile
+nx serve api auth
+clear
+nx serve api auth
+$nu.env
+$nu
+$nu.ENV
+clear
+$nu.env
+$nu
+export NODE_EXTRA_CA_CERTS=~/Downloads
+export-env NODE_EXTA
+$nu.env-path
+clear
+$nu.config
+$nu.config-path
+echo
+echo $nu.config-path
+clear
+$nu.env
+$nu.NODE_ENV
+let-env 
+echo $env
+clear
+$env.NODE_EXTRA_CA_CERTS=~/Downloads/ca.planstin.goskope.com.pem
+$env.NODE_EXTRA_CA_CERTS='~/Downloads/ca.planstin.goskope.com.pem'
+$env.NODE_EXTRA_CA_CERTS = '~/Downloads/ca.planstin.goskope.com.pem'
+$env.NODE_EXTRA_CA_CERTS
+nx serve api auth
+clear
+nx serve api auth
+$env.NODE_EXTRA_CA_CERTS = ~/Downloads/ca.planstin.goskope.com.pem
+clear
+$env.NODE_EXTRA_CA_CERTS = ~/Downloads/ca.planstin.goskope.com.pem
+$env.NODE_EXTRA_CA_CERTS
+clear
+nx serve api auth
+$env.NODE_EXTRA_CA_CERTS = '../../Downloads/ca.planstin.goskope.com.pem'
+nx serve api auth
+$env.NODE_EXTRA_CA_CERTS = '../../Downloads/ca.planstin.goskope.com.pem'
+nx serve api auth
+clear
+$env.NODE_EXTRA_CA_CERTS = "~/Downloads/ca.planstin.goskope.com.pem"
+nx serve api auth
+$env.NODE_EXTRA_CA_CERTS = "../../Downloads/ca.planstin.goskope.com.pem"
+nx serve api auth
+$env.NODE_EXTRA_CA_CERTS = "./ca.planstin.goskope.com.pem"
+$env.NODE_EXTRA_CA_CERTS
+clear
+nx serve api auth
+$env.NODE_EXTRA_CA_CERTS = "./ca.planstin.goskope.com"
+nx serve api auth
+path ca.planstin.goskope.com.pem
+echo ca.planstin.goskope.com.pem
+clear
+pathchk 
+pathchk ca.planstin.goskope.com.pem 
+clear
+pwd
+pwd ca.planstin.goskope.com.pem
+pwd
+$env.NODE_EXTRA_CA_CERTS = "/Users/andriiskochypets/Projects/planstin-portal/ca.planstin.goskope.com"
+nx serve api auth
+$env.NODE_EXTRA_CA_CERTS = "/Users/andriiskochypets/Projects/planstin-portal/ca.planstin.goskope.com.pem"
+nx serve api auth
+c
+nx serve api auth
+git f
+git tag
+clear
+nx serve api auth
+cd `/Library/Application Support/Netskope/STAgent/`
+ls
+clear
+l
+ll
+clear
+l
+cd certutil/
+ls
+clear
+l
+cd ..
+l
+c
+zi project
+zi portal
+clear
+$env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
+nx serve api auth
+$env.NODE_EXTRA_CA_CERTS = "/Users/andriiskochypets/Projects/planstin-portal/ca.planstin.goskope.com.pem"
+$env.NODE_EXTRA_CA_CERTS = ""
+nx serve api auth
+clear
+$env.NODE_EXTRA_CA_CERTS = "/Users/andriiskochypets/Projects/planstin-portal/ca.planstin.goskope.com.pem"
+$env.NODE_TLS_REJECT_UNAUTHORIZED
+clear
+$env.NODE_TLS_REJECT_UNAUTHORIZED = 0
+clear
+nx serve api auth
+$env.NODE_EXTRA_CA_CERTS = ""
+nx serve api auth
+c
+$env.NODE_EXTRA_CA_CERTS = "/Users/andriiskochypets/Projects/planstin-portal/ca.planstin.goskope.com.pem"
+clear
+$env.NODE_EXTRA_CA_CERTS
+$env.NODE_TLS_REJECT_UNAUTHORIZED
+$env.NODE_TLS_REJECT_UNAUTHORIZED = 1
+nx serve api auth
+$env.NODE_TLS_REJECT_UNAUTHORIZED
+$env.NODE_EXTRA_CA_CERTS
+nx serve api auth
+$env.NODE_EXTRA_CA_CERTS = "/Users/andriiskochypets/Downloads/rootcaCert.pem"
+nx serve api auth
+c
+v
+v
+c
+clear
+$ne.v
+$env
+clear
+$env | find NODE
+$env | search NODE
+$env | find NODE
+$env | list | find NODE
+$env | list
+clear
+c
+clear
+$env.NODE_EXTRA_CA_CERTS = "/Users/andriiskochypets/Downloads/rootcaCert.pem"
+$env.NODE_EXTRA_CA_CERTS = ""
+nx serve api auth
+cd /System/Library/Keychains/
+l
+ll
+l
+z portal
+clear
+source $nu.env-path
+clear
+$env.NODE_TLS_REJECT_UNAUTHORIZED
+exit
+$env.NODE_EXTRA_CA_CERTS
+clear
+$env.NODE_EXTRA_CA_CERTS
+clear
+tmux attach
+clear
+nx serve api auth
+$env.NODE_EXTRA_CA_CERTS
+clear
+git r dev
+v
+git r dev
+git r edev
+git r dev
+clear
+nx g migration-create
+npx nx db:migration-create api Create_table_EmployeeClass
+v
+nx db:migration-run api
+clear
+npx nx generate http-handler
+nx test api employer-wizard
+nx test employer-wizard
+nx test api employer-wizard
+nx test employer-wizard
+nx test api:all
+nx test api
+nx test:all api
+nx lint:all api
+clear
+nx lint:all api
+c
+nx lint:all api
+nx lint:all api --fix
+nx lint db
+nx lint salesforce
+clear
+nx lint:all api
+c
+nx lint:all api
+clear
+nx test employer-wizard
+clear
+nx test employer-wizard
+tmux attach
+c
+c
+nx test employer-wizard
+tmux ls
+tmux list-sessions 
+c
+c
+clear
+nx lint:all api
+clear
+eslint 
+eslint
+pnpm install
+clear
+npm lint-staged
+npx lint-staged
+eslint 
+lint-staged --debug
+npx lint-staged --debug
+clear
+npx eslint
+./node_modules/eslint/bin
+l
+z portal
+./node_modules/eslint/bin/eslint.js ./apps/api/services/salesforce/src/salesforce.manager.ts
+eslint 
+eslint --version
+clear
+nx lint:all api
+npx lint-stage
+npx lint-staged
+ps | where cpu > 0
+ps | where mem > 1
+ps | where mem | number
+ps | where mem | int
+ps | where mem 
+ps | where mem = '1'
+ps | typeof mem
+clear
+npx lint-staged
+nx lint:all api
+npx eslint --fix ./apps/api/libs/typeormdb/src/lib/migrations/*
+npx lint-staged
+clear
+nx lint:all api
+clear
+prettier --write ./apps/api/libs/
+prettier --write ./apps/api/libs
+npx prettier --write ./apps/api/services/salesforce/src/salesforce.manager.ts
+npx eslint --fix ./apps/api/services/salesforce/src/salesforce.manager.ts
+clear
+mysqld
+mysqld --version
+clear
+mysql
+service mysql start
+service
+launchctl 
+brew services start mysql<\n>
+mysql
+clear
+c
+tmux attach
+c
+nx g repository
+git pull origin dev
+git push
+clear
+git f
+nx start ui
+c
+git pull origin dev
+git push
+clear
+git pull
+git pull origin dev
+nx serve accounts
+nx serve accounts api
+nx serve api accounts
+c
+nx serve api accounts
+c
+nx serve api accounts
+c
+nx serve api accounts
+clear
+nx db:migration-revert api
+clear
+nx db:migration-revert api
+c
+nx db:migration-revert api
+nx db:migration-run api
+clear
+nx serve api accounts 
+c
+nx serve api accounts
+c
+nx serve api accounts
+c
+nx serve api accounts
+c
+nx serve api accounts
+c
+nx serve api webservices
+c
+nx serve api webservices
+c
+nx serve api webservices
+c
+nx serve api webservices
+nx serve api accounts
+nx serve api webservices
+nx serve api accounts
+c
+nx serve api accounts
+c
+nx serve api accounts
+nx db:migration-revert api
+v
+git pull origin dev
+git push
+git acm 'Update isDefaultFLG value'
+git p
+git push
+clear
+git r dev
+clear
+nx start api ui
+nx start ui
+v
+fnm use 22
+c
+git p sso-update
+git f
+c
+git r main
+cle
+clear
+git tag
+git tag -a
+git tag -l
+git tag
+clear
+git tag
+git tag 2025-27-v1
+git push origin 2025-27-v1
+clear
+git r dev
+nx start ui
+c
+git p silent-renew
+git checkout silent-renew
+git pull
+git pull origin dev
+git push
+git f
+git tag
+git tag 2025-27-v2
+git push origin 2025-27-v2
+clear
+git f
+clear
+c
+git r dev
+npm run audit
+clear
+npm run audit
+npm audit
+pnpm audit
+npm audit fix
+pnpm audit fix
+git r dev
+clear
+pnpm audit --fix
+pnpm audit
+clear
+pnpm install
+clear
+pnpm audit --fix
+clear
+nx g migration-create Update_table_EmployeeClassBASE
+nx db:migration-create api Update_table_EmployeeClassBASE
+git p pp-241
+git r dev
+clear
+c
+c
+v
+fnm use 22
+clear
+v
+nx start ui
+c
+nx start ui
+c
+nx g http-handler
+nx serve api contributions
+c
+nx g http-handler
+nx serve api contributions
+c
+nx start ui
+nx serve api contributions
+git r dev
+c
+git pull
+git pull origin dev
+git r dev
+nx start ui
+nx serve api contributions
+c
+c
+nx serve api contributions
+nx start ui
+v
+nx start ui
+c
+nx g http-handler
+nx serve api contributions
+nx db:migration-create api Update_table_ContributionBASE
+nx start ui
+c
+git acmn 'PPORTAL-229. Create Employee Class drop down on Contribution Page'
+git p pp-229
+nx start ui
+c
+nx test api
+nx lint:all api
+clear
+nx test:all api
+c
+c
+c
+git pull origin dev
+git push
+nx lint:all api
+clear
+nx lint
+nx lint api
+clear
+npx nx test:all api
+clear
+nx serve api contributions
+c
+c
+c
+nx g feature-flag
+nx start ui
+nx serve api contributions
+c
+clear
+npx nx test:all api
+npx nx lint:all api
+clear
+npx nx test:all api
+nx test er-wizard-renew api
+c
+nx test er-wizard-renew:api
+c
+nx test er-wizard-renew
+c
+git f\
+nx test er-wizard-renew
+nx test:all api
+nx test group-plan-offerings
+c
+nx test group-plan-offerings
+c
+nx test group-plan-offerings
+clear
+nx test:all api
+nx test auth
+nx test managers
+clear
+nx test:all api
+clear
+git pull origin dev
+git push
+git pull origin dev
+git push
+git pull origin dev
+git push
+git r pp-229
+c
+c
+v
+fnm use 22
+clear
+ls
+clear
+v
+tmux attach
+clear
+ls
+clear
+c
+b
+clear
+zsh
+clear
+ls
+c
+git pull origin dev
+git push
+v
+nx start ui
+cc
+c
+git pull origin dev
+git push
+git pull origin dev
+nx star
+nx start ui
+c
+git r dev
+c
+git checkout pp-249
+clear
+git checkout pp-249
+clear
+chsh -s $(which nu)
+clear
+which
+ls
+c
+which
+c
+echo $shell
+clear
+zsh
+clear
+ls
+c
+ls
+cd ~config
+cd ~/.config/
+ls
 la
 clear
-ll
-lt
+l
+cd nushell
+l
+car config.nu
+cat config.nu 
+cd ~
+l
+cat .bashrc 
+cat .zshrc 
 clear
-lt
-rm -rf iterm2/
-clear
-lt
 c
+c
+v
+fnm use 22
+jkkkkkk
+c
+c
+cat /etc/shells 
+chsh -s /bin/zsh
+sudo chsh -s /bin/zsh
+clear
+ls
+c
+ls
+c
+clear
+ls
+exit
+ls
+exit
+clear
+exit
+v
+exit
+v
+exit
+exit
+exit
+exit
+exit
+exit
+exit

@@ -16,18 +16,18 @@ keymap.set("v", "<Leader>d", '"_d')
 keymap.set("v", "<Leader>D", '"_D')
 
 -- Keep last yanked when pasting
-vim.keymap.set('v', 'p', '"_dP', opts)
+vim.keymap.set("v", "p", '"_dP', opts)
 
 -- Replace word under cursor
-vim.keymap.set('n', '<leader>j', '*``cgn', opts)
+vim.keymap.set("n", "<leader>j", "*``cgn", opts)
 
 -- Vertical scroll and center
-vim.keymap.set('n', '<C-d>', '<C-d>zz', opts)
-vim.keymap.set('n', '<C-u>', '<C-u>zz', opts)
+vim.keymap.set("n", "<C-d>", "<C-d>zz", opts)
+vim.keymap.set("n", "<C-u>", "<C-u>zz", opts)
 
 -- Find and center
-vim.keymap.set('n', 'n', 'nzzzv')
-vim.keymap.set('n', 'N', 'Nzzzv')
+vim.keymap.set("n", "n", "nzzzv")
+vim.keymap.set("n", "N", "Nzzzv")
 
 -- Increment/decrement
 keymap.set("n", "+", "<C-a>")
@@ -60,10 +60,10 @@ keymap.set("n", "sj", "<C-w>j")
 keymap.set("n", "sl", "<C-w>l")
 
 -- Resize with arrows
-vim.keymap.set('n', '<Up>', ':resize -2<CR>', opts)
-vim.keymap.set('n', '<Down>', ':resize +2<CR>', opts)
-vim.keymap.set('n', '<Left>', ':vertical resize -2<CR>', opts)
-vim.keymap.set('n', '<Right>', ':vertical resize +2<CR>', opts)
+vim.keymap.set("n", "<S-Up>", ":resize +2<CR>", opts)
+vim.keymap.set("n", "<S-Down>", ":resize -2<CR>", opts)
+vim.keymap.set("n", "<S-Left>", ":vertical resize -2<CR>", opts)
+vim.keymap.set("n", "<S-Right>", ":vertical resize +2<CR>", opts)
 
 -- Toggle line wrapping
-vim.keymap.set('n', '<leader>lw', '<cmd>set wrap!<CR>', opts)
+vim.keymap.set("n", "<leader>lw", "<cmd>set wrap!<CR>", opts)

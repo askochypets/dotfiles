@@ -14,8 +14,8 @@ config = {
 	check_for_updates = false,
 	use_fancy_tab_bar = false,
 	tab_bar_at_bottom = false,
-	font_size = 12.5,
-	font = wezterm.font("JetBrains Mono", { weight = "Bold" }),
+	font_size = 14,
+	font = wezterm.font("JetBrains Mono", { weight = "Regular" }),
 	enable_tab_bar = false,
 	window_padding = {
 		left = 3,
@@ -26,24 +26,25 @@ config = {
 	background = {
 		{
 			source = {
-				File = "/Users/" .. os.getenv("USER") .. "/.config/wezterm/dark-desert.jpg",
+				Color = "#1e1e2e",
+			},
+			width = "100%",
+			height = "100%",
+			opacity = 1,
+		},
+		{
+			source = {
+				File = "/Users/" .. os.getenv("USER") .. "/Downloads/bg4.jpg",
 			},
 			hsb = {
 				hue = 1.0,
 				saturation = 1.02,
 				brightness = 0.25,
 			},
+			opacity = 0.15,
 			-- attachment = { Parallax = 0.3 },
 			-- width = "100%",
 			-- height = "100%",
-		},
-		{
-			source = {
-				Color = "#282c35",
-			},
-			width = "100%",
-			height = "100%",
-			opacity = 0.55,
 		},
 	},
 	-- from: https://akos.ma/blog/adopting-wezterm/

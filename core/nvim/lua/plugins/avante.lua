@@ -22,7 +22,7 @@ return {
 					-- reasoning_effort = "high" -- only supported for reasoning models (o1, etc.)
 				},
 				copilot = {
-					model = "gpt-4.1",
+					model = "claude-sonnet-4.5",
 				},
 			},
 		},

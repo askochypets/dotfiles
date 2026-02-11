@@ -8,6 +8,4 @@
 --ignore=install.sh
 --ignore=scripts
 --ignore=homebrew
---ignore=zsh/.zshrc
---ignore=zsh/.zshenv
---ignore=vim
+--ignore=home

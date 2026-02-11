@@ -5,7 +5,7 @@ return {
 		dependencies = {
 			-- Creates a beautiful debugger UI
 			"rcarriga/nvim-dap-ui",
-			'nvim-neotest/nvim-nio',
+			"nvim-neotest/nvim-nio",
 			-- virtual text for the debugger
 			{
 				"theHamsta/nvim-dap-virtual-text",
@@ -18,7 +18,7 @@ return {
 					table.insert(opts.ensure_installed, "js-debug-adapter")
 				end,
 			},
-			'leoluz/nvim-dap-go',
+			"leoluz/nvim-dap-go",
 		},
 		-- stylua: ignore
 		keys = {
@@ -26,8 +26,8 @@ return {
 			{ "<leader>do", function() require("dap").step_over() end, desc = "Step Over" },
 		},
 		opts = function()
-			local dap = require 'dap'
-			local dapui = require 'dapui'
+			local dap = require("dap")
+			local dapui = require("dapui")
 
 			if not dap.adapters["pwa-node"] then
 				-- Setup for `pwa-node` adapter
@@ -39,9 +39,8 @@ return {
 						command = "node",
 						args = {
 							-- Update this path to point to the correct `js-debug-adapter` location
-							require("mason-registry").get_package("js-debug-adapter")
-							:get_install_path()
-							.. "/js-debug/src/dapDebugServer.js",
+							require("mason-registry").get_package("js-debug-adapter"):get_install_path()
+								.. "/js-debug/src/dapDebugServer.js",
 							"${port}",
 						},
 					},
@@ -74,10 +73,9 @@ return {
 						request = "launch",
 						name = "Launch NX Serve (Auth)",
 						program = "${workspaceFolder}/node_modules/.bin/nx",
-						args = { "serve", "auth" }, -- Command to run `nx serve auth`
+						args = { "serve", "api", "auth" }, -- Command to run `nx serve auth`
 						cwd = "${workspaceFolder}",
-						runtimeExecutable =
-						"/Users/andriiskochypets/.config/nvm/versions/node/v18.20.8/bin/node",
+						runtimeExecutable = "/Users/andriiskochypets/.config/nvm/versions/node/v18.20.8/bin/node",
 						console = "integratedTerminal",
 						restart = true, -- Automatically restart the debugger if the process crashes
 					},
@@ -85,11 +83,10 @@ return {
 						type = "pwa-node",
 						request = "launch",
 						name = "Launch NX Serve --args",
-						program = "${workspaceFolder}/node_modules/.bin/nx",
-						args = { "serve", "" }, -- Command to run `nx serve auth`
+						program = "/Users/andriiskochypets/.local/state/fnm_multishells/81706_1763391170148/bin/nx",
+						args = { "serve", "api", "" }, -- Command to run `nx serve auth`
 						cwd = "${workspaceFolder}",
-						runtimeExecutable =
-						"/Users/andriiskochypets/.config/nvm/versions/node/v18.20.8/bin/node",
+						runtimeExecutable = "/Users/andriiskochypets/.local/share/fnm/node-versions/v20.19.5/installation/bin/node",
 						console = "integratedTerminal",
 						restart = true, -- Automatically restart the debugger if the process crashes
 					},
@@ -106,7 +103,7 @@ return {
 						resolveSourceMapLocations = {
 							"${workspaceFolder}/api/**",
 							"!**/node_modules/**",
-						},           -- Optional: refine source map locations for clarity
+						}, -- Optional: refine source map locations for clarity
 						attachSimplePort = 9229, -- Optional: force debugger to only use a specific port
 						runtimeArgs = { "--inspect" }, -- Leave runtime args empty unless absolutely needed
 					},
@@ -139,28 +136,6 @@ return {
 					},
 				}
 			end
-
-			-- Dap UI setup
-			-- For more information, see |:help nvim-dap-ui|
-			dapui.setup {
-				-- Set icons to characters that are more likely to work in every terminal.
-				--    Feel free to remove or use ones that you like more! :)
-				--    Don't feel like these are good choices.
-				icons = { expanded = '▾', collapsed = '▸', current_frame = '*' },
-				controls = {
-					icons = {
-						pause = '⏸',
-						play = '▶',
-						step_into = '⏎',
-						step_over = '⏭',
-						step_out = '⏮',
-						step_back = 'b',
-						run_last = '▶▶',
-						terminate = '⏹',
-						disconnect = '⏏',
-					},
-				},
-			}
 		end,
 	},
 }

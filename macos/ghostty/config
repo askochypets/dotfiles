@@ -1,12 +1,18 @@
 theme = Catppuccin Mocha
-font-size = 14
-background-blur-radius = 20
+font-size = 13
 mouse-hide-while-typing = true
 window-decoration = false
 # keybind = global:cmd+/=toggle_quick_terminal
 macos-option-as-alt = true
-background-opacity = 0.9
-background-blur-radius = 20
 maximize = true
 macos-window-shadow = false
 macos-titlebar-style = "native"
+background-opacity = 1
+# background = #1e1e2e
+background = #181825
+# background = #11111b
+background-blur = 20
+background-image = ./bg.jpg
+background-image-opacity = 0.1
+background-image-fit = cover
+background-opacity-cells = true
