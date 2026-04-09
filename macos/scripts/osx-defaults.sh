@@ -41,7 +41,7 @@ apply_osx_system_defaults() {
   defaults write com.apple.finder ShowMountedServersOnDesktop -bool false
 
   # Hide icons on desktop
-  defaults write com.apple.finder CreateDesktop -bool false
+  # defaults write com.apple.finder CreateDesktop -bool false
 
   # Avoid creating .DS_Store files on network volumes
   defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
