@@ -48,7 +48,8 @@ install_packages() {
   # ------------------------------------------------------------
   info "Installing pacman packages..."
   sudo pacman -Syu --needed --noconfirm \
-    readline aws-cli-v2 cmake fzf gcc nodejs npm ranger ripgrep ruby tmux xclip zlib openssl poppler zoxide lazygit zsh curl wget unzip nushell
+    readline aws-cli-v2 cmake fzf gcc nodejs npm ranger ripgrep ruby tmux xclip zlib openssl poppler zoxide lazygit zsh curl wget unzip nushell \
+    neovim tree-sitter linux-api-headers
 
   # ------------------------------------------------------------
   #  Packages from AUR (requires yay)
@@ -56,7 +57,7 @@ install_packages() {
   if command -v yay &>/dev/null; then
     TARGET_USER="${SUDO_USER:-$USER}"
     sudo -u "$TARGET_USER" bash -c "yay -S --needed --noconfirm \
-      nerd-fonts-hack nerd-fonts-jetbrains-mono nerd-fonts-symbols-only"
+      nerd-fonts-hack nerd-fonts-jetbrains-mono nerd-fonts-symbols-only xremap-x11-bin"
   fi
 
   # ------------------------------------------------------------
