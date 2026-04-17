@@ -67,3 +67,7 @@ vim.keymap.set("n", "<S-Right>", ":vertical resize +2<CR>", opts)
 
 -- Toggle line wrapping
 vim.keymap.set("n", "<leader>lw", "<cmd>set wrap!<CR>", opts)
+
+-- Map kj to <Esc> in insert mode
+vim.keymap.set("i", "kj", "<Esc>", { noremap = true })
+vim.keymap.set("i", "jk", "<Esc>", { noremap = true })

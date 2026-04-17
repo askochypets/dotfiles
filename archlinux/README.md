@@ -21,44 +21,39 @@ bash install.sh
 Core development tools and utilities:
 - **Build tools**: base-devel, gcc, cmake
 - **Editors**: neovim, tree-sitter
-- **Shell tools**: zsh, nushell, fzf, ripgrep, ranger
+- **Shell tools**: zsh, nushell, fzf, ripgrep, ranger, starship, eza
+- **ZSH plugins**: zsh-autosuggestions, zsh-syntax-highlighting
 - **Version control**: git, lazygit
 - **Multiplexer**: tmux
 - **Cloud tools**: aws-cli-v2
 - **System libraries**: readline, zlib, openssl, poppler, linux-api-headers
-- **Utilities**: curl, wget, unzip, xclip, zoxide
+- **Utilities**: curl, wget, unzip, xclip, zoxide, atuin
+- **Languages**: nodejs, npm, ruby
 
 ### AUR Packages (via yay)
 
 - **Fonts**: Nerd Fonts (Hack, JetBrains Mono, Symbols Only)
-- **Keyboard remapper**: xremap-x11-bin
-
-### Homebrew Packages
-
-Cross-platform tools:
-- **Shell**: carapace, zoxide, starship
-- **ZSH plugins**: zsh-autosuggestions, zsh-syntax-highlighting
-- **Node version manager**: fnm
-- **File tools**: eza
+- **Shell completion**: carapace-bin
+- **Node version manager**: fnm-bin
 
 ## Configuration
 
 Configurations are managed via GNU Stow and symlinked from:
 - `core/` - Shared configurations (neovim, tmux, zsh, etc.)
-- `archlinux/` - Arch-specific configurations (xremap, systemd services)
+- `archlinux/` - Arch-specific configurations (systemd services)
 
 ## Special Features
 
-### Keyboard Remapping (xremap)
+### Keyboard Remapping
 
-xremap provides Karabiner-Elements-like functionality:
-- Caps Lock → Ctrl/Esc (hold/tap)
-- Tab → Hyper key (hold/tap)
-- Vim-style navigation
-- Application launchers
-- Desktop/workspace switching
+**⚠️ NOT AVAILABLE in Termux/proot environments**
 
-See `archlinux/xremap/README.md` for details.
+System-level keyboard remapping tools (keyd, xremap, kmonad) require direct hardware access to `/dev/input/` devices, which is not available in Termux/proot containers.
+
+**For Termux users**: Use Android-level remapping solutions instead:
+- **External Keyboard Helper Pro** (recommended) - Full system-wide remapping
+- **Android Settings** → Physical Keyboard - Basic remapping
+- **Termux keyboard configuration** - Terminal-only key mappings
 
 ### LazyVim / Neovim
 
@@ -91,7 +86,7 @@ Quick summary:
 ### Known Limitations in Termux/proot
 
 - **systemd services**: Don't work in proot environment
-  - xremap must be started manually or via shell rc file
+- **Keyboard remapping**: System-level tools require direct hardware access not available in proot
 - **Docker**: Limited functionality
 - **GUI applications**: Not supported in proot-distro
 
@@ -108,45 +103,26 @@ sudo pacman -S linux-api-headers neovim tree-sitter
 
 These packages are now automatically installed by the script.
 
-### xremap Not Starting
+### Installation Failed
 
-**Native Linux with systemd:**
+Check the installation log for detailed error messages:
 ```bash
-systemctl --user status xremap
-journalctl --user -u xremap -f
+cat archlinux/install.log
 ```
 
-**Termux/proot (no systemd):**
-Start manually:
-```bash
-nohup xremap ~/.config/xremap/config.yml > /tmp/xremap.log 2>&1 &
-```
-
-### Homebrew Issues
-
-If Homebrew installation fails (common on aarch64):
-```bash
-# Use native packages instead
-sudo pacman -S starship eza zoxide
-```
+The install script provides detailed step tracking and will show exactly where the installation failed.
 
 ## File Structure
 
 ```
 archlinux/
-├── README.md                 # This file
-├── install.sh               # Main installation script
-├── .stowrc                  # Stow configuration
-├── scripts/
-│   ├── packages.sh          # Package installation
-│   ├── symlinks.sh          # Symlink creation via stow
-│   └── utils.sh             # Utility functions
-├── xremap/
-│   ├── config.yml           # Keyboard remapping config
-│   └── README.md            # xremap documentation
-└── systemd/
-    └── user/
-        └── xremap.service   # xremap systemd service
+├── README.md                      # This file
+├── install.sh                     # Main installation script
+├── .stowrc                        # Stow configuration
+└── scripts/
+    ├── packages.sh                # Package installation
+    ├── symlinks.sh                # Symlink creation via stow
+    └── utils.sh                   # Utility functions
 ```
 
 ## Manual Installation Steps
@@ -159,10 +135,6 @@ bash scripts/packages.sh
 
 # 2. Create symlinks
 bash scripts/symlinks.sh
-
-# 3. Enable xremap (if systemd available)
-systemctl --user daemon-reload
-systemctl --user enable --now xremap.service
 ```
 
 ## Environment Variables
@@ -178,7 +150,6 @@ The install script respects:
 All packages work on ARM64 architecture:
 - Native Arch Linux ARM repositories
 - AUR packages compiled for aarch64
-- Homebrew Linux ARM support
 
 ### Termux on Android
 
@@ -191,14 +162,13 @@ Special considerations:
 ## Related Documentation
 
 - **Termux Setup**: `../termux/README.md`
-- **xremap**: `xremap/README.md`
 - **Core configs**: `../core/`
 
 ## Changes from macOS Setup
 
 Key differences from the macOS setup:
 1. Uses `pacman` instead of Homebrew for core packages
-2. Uses `xremap` instead of Karabiner-Elements
+2. No keyboard remapping in Termux/proot (use Android-level solutions)
 3. Systemd services instead of launchd (when available)
 4. Linux-specific paths and configurations
 
@@ -207,13 +177,11 @@ Key differences from the macOS setup:
 When adding new packages:
 1. Prefer `pacman` for core system packages
 2. Use AUR for Linux-specific or unavailable packages
-3. Use Homebrew only for cross-platform CLI tools
-4. Test on both native Linux and Termux/proot if possible
+3. Test on both native Linux and Termux/proot if possible
 
 ## Support
 
 For issues specific to:
 - **Termux/Android**: See `../termux/README.md`
-- **Keyboard remapping**: See `xremap/README.md`
 - **Neovim/LazyVim**: Check `:checkhealth` in Neovim
 
